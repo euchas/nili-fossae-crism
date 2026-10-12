@@ -1,0 +1,569 @@
+{
+  "script": "scripts/12_depth_split.py",
+  "seed": 42,
+  "depth_class_edges_m": [
+    0.3,
+    0.5,
+    1.0,
+    2.0,
+    3.0,
+    "inf"
+  ],
+  "ripple_wavelengths_m": {
+    "primary": 3.4073262019902026,
+    "secondary": 10.221978605970609
+  },
+  "band_recompute": "identical to scripts/06_banding.py (fy harmonics of 0.0978 cyc/m, k=1,2,3, |fx|<0.02, width 0.008)",
+  "band_fillDEM": "same bandpass on the depression-filled DEM (z + depth); removes each pit's own leakage into the band",
+  "slope_definition": "gradient of gaussian(sigma=2 px)-smoothed DEM, identical to scripts/10_overview.py",
+  "unit_areas_km2": {
+    "olivine_only": 0.4733372132688644,
+    "clay": 0.906982985921927,
+    "source": "params_10_overview.json / params_08_units.json; catalogue unit labels are Clay-priority exclusive"
+  },
+  "matched_null": {
+    "match_variable": "local slope (deg)",
+    "slope_bin_edges": [
+      0.0,
+      2.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      15.0,
+      20.0,
+      30.0,
+      90.0
+    ],
+    "k_per_pit": 20
+  },
+  "ortho_scene": {
+    "median_DN": 122.0,
+    "std_DN": 24.40751838684082
+  },
+  "control_rayleigh_random_points": {
+    "mod_3p407": {
+      "n": 20000,
+      "R": 0.004342722408844187,
+      "Z": 0.3771847584055492,
+      "p": 0.6857946040328464,
+      "mean_phase_cyc": 0.4131393329629461
+    },
+    "mod_10p222": {
+      "n": 20000,
+      "R": 0.0009384800961684374,
+      "Z": 0.017614897818086388,
+      "p": 0.9825397664224105,
+      "mean_phase_cyc": 0.5210482263317087
+    }
+  },
+  "classes": [
+    {
+      "label": "0.3-0.5 m",
+      "depth_lo": 0.3,
+      "depth_hi": 0.5,
+      "n": 830,
+      "median_depth_m": 0.428497314453125,
+      "median_eq_diam_m": 2.276095493880057,
+      "ortho": {
+        "n": 830,
+        "median_contrast_DN": -0.6834487915039062,
+        "frac_darker": 0.553012048192771,
+        "wilcoxon_p": 0.015216850333511096
+      },
+      "banding": {
+        "frac_in_trough": 0.6012048192771084,
+        "matched_frac_in_trough": 0.49421686746987953,
+        "band_median_at_pits_m": -0.013697662547231681,
+        "band_median_matched_m": 0.0009227106015140739,
+        "mannwhitney_p_pits_lower": 8.571030028111769e-11,
+        "n_matched": 16600,
+        "fillDEM_frac_in_trough": 0.5650602409638554,
+        "fillDEM_matched_frac_in_trough": 0.4960843373493976,
+        "fillDEM_band_median_at_pits_m": -0.008444487258772056,
+        "fillDEM_mannwhitney_p_pits_lower": 2.7783741858274667e-06
+      },
+      "units": {
+        "n_olivine_only": 438,
+        "n_clay": 364,
+        "frac_olivine_only": 0.5277108433734939,
+        "frac_clay": 0.43855421686746987,
+        "density_olivine_only_per_km2": 925.3445275835682,
+        "density_clay_per_km2": 401.3305714108876,
+        "density_ratio_oliv_over_clay": 2.3056916006435704
+      },
+      "slope": {
+        "median_pit_slope_deg": 3.7574038862421357,
+        "median_random_slope_deg": 10.726964107243617,
+        "mannwhitney_p": 3.9816558363011986e-205
+      },
+      "nn": {
+        "median_nn_m": 15.850552000463786,
+        "mean_nn_m": 18.611951723185413,
+        "clark_evans_R": 0.9023215406889564
+      },
+      "rayleigh_mod_3p407": {
+        "n": 830,
+        "R": 0.0893305217792853,
+        "Z": 6.623351960728273,
+        "p": 0.0013167168735194804,
+        "mean_phase_cyc": 0.2777198698263747
+      },
+      "rayleigh_mod_10p222": {
+        "n": 830,
+        "R": 0.08897972248400593,
+        "Z": 6.57143454106449,
+        "p": 0.0013871273486208507,
+        "mean_phase_cyc": 0.42144485923790687
+      }
+    },
+    {
+      "label": "0.5-1 m",
+      "depth_lo": 0.5,
+      "depth_hi": 1.0,
+      "n": 1745,
+      "median_depth_m": 0.66827392578125,
+      "median_eq_diam_m": 3.4141432408200862,
+      "ortho": {
+        "n": 1742,
+        "median_contrast_DN": -0.5524826049804688,
+        "frac_darker": 0.5442020665901263,
+        "wilcoxon_p": 0.00012749011889077574
+      },
+      "banding": {
+        "frac_in_trough": 0.6103151862464183,
+        "matched_frac_in_trough": 0.4967335243553009,
+        "band_median_at_pits_m": -0.019294338439718586,
+        "band_median_matched_m": 0.0004949267755156645,
+        "mannwhitney_p_pits_lower": 4.854278449220088e-32,
+        "n_matched": 34900,
+        "fillDEM_frac_in_trough": 0.5724928366762178,
+        "fillDEM_matched_frac_in_trough": 0.49684813753581664,
+        "fillDEM_band_median_at_pits_m": -0.009163468713754497,
+        "fillDEM_mannwhitney_p_pits_lower": 1.931420934355743e-15
+      },
+      "units": {
+        "n_olivine_only": 915,
+        "n_clay": 772,
+        "frac_olivine_only": 0.5243553008595988,
+        "frac_clay": 0.44240687679083096,
+        "density_olivine_only_per_km2": 1933.0827459793718,
+        "density_clay_per_km2": 851.1736294758385,
+        "density_ratio_oliv_over_clay": 2.271079224070633
+      },
+      "slope": {
+        "median_pit_slope_deg": 3.549776874128172,
+        "median_random_slope_deg": 10.726964107243617,
+        "mannwhitney_p": 0.0
+      },
+      "nn": {
+        "median_nn_m": 11.371468415362626,
+        "mean_nn_m": 13.355881932118832,
+        "clark_evans_R": 0.9388595937290324
+      },
+      "rayleigh_mod_3p407": {
+        "n": 1745,
+        "R": 0.1067013432539314,
+        "Z": 19.867133258077292,
+        "p": 2.2366265986387144e-09,
+        "mean_phase_cyc": 0.36269678695193336
+      },
+      "rayleigh_mod_10p222": {
+        "n": 1745,
+        "R": 0.011729776050497964,
+        "Z": 0.24009044260998816,
+        "p": 0.7866043349143129,
+        "mean_phase_cyc": 0.5115681955563878
+      }
+    },
+    {
+      "label": "1-2 m",
+      "depth_lo": 1.0,
+      "depth_hi": 2.0,
+      "n": 400,
+      "median_depth_m": 1.179534912109375,
+      "median_eq_diam_m": 5.802927669047509,
+      "ortho": {
+        "n": 400,
+        "median_contrast_DN": -0.4205513000488281,
+        "frac_darker": 0.54,
+        "wilcoxon_p": 0.29380104105933624
+      },
+      "banding": {
+        "frac_in_trough": 0.59,
+        "matched_frac_in_trough": 0.493875,
+        "band_median_at_pits_m": -0.01847229969068147,
+        "band_median_matched_m": 0.0009753831471134428,
+        "mannwhitney_p_pits_lower": 5.569490170414482e-09,
+        "n_matched": 8000,
+        "fillDEM_frac_in_trough": 0.5275,
+        "fillDEM_matched_frac_in_trough": 0.49725,
+        "fillDEM_band_median_at_pits_m": -0.005482435628798727,
+        "fillDEM_mannwhitney_p_pits_lower": 0.00861736829698673
+      },
+      "units": {
+        "n_olivine_only": 204,
+        "n_clay": 179,
+        "frac_olivine_only": 0.51,
+        "frac_clay": 0.4475,
+        "density_olivine_only_per_km2": 430.98238271015504,
+        "density_clay_per_km2": 197.35761616084858,
+        "density_ratio_oliv_over_clay": 2.1837636220681738
+      },
+      "slope": {
+        "median_pit_slope_deg": 3.5502246529389025,
+        "median_random_slope_deg": 10.726964107243617,
+        "mannwhitney_p": 4.54637902012083e-94
+      },
+      "nn": {
+        "median_nn_m": 20.34279273986902,
+        "mean_nn_m": 26.282471634832923,
+        "clark_evans_R": 0.8845585031759938
+      },
+      "rayleigh_mod_3p407": {
+        "n": 400,
+        "R": 0.0284329011306403,
+        "Z": 0.3233719466819066,
+        "p": 0.7239499147077278,
+        "mean_phase_cyc": 0.21178200357577465
+      },
+      "rayleigh_mod_10p222": {
+        "n": 400,
+        "R": 0.12682815578241566,
+        "Z": 6.434152439667478,
+        "p": 0.00157715333708507,
+        "mean_phase_cyc": 0.30567763985573737
+      }
+    },
+    {
+      "label": "2-3 m",
+      "depth_lo": 2.0,
+      "depth_hi": 3.0,
+      "n": 41,
+      "median_depth_m": 2.59442138671875,
+      "median_eq_diam_m": 4.258184758839599,
+      "ortho": {
+        "n": 41,
+        "median_contrast_DN": -0.9885940551757812,
+        "frac_darker": 0.6341463414634146,
+        "wilcoxon_p": 0.05285035588167375
+      },
+      "banding": {
+        "frac_in_trough": 0.6829268292682927,
+        "matched_frac_in_trough": 0.524390243902439,
+        "band_median_at_pits_m": -0.08762869688965873,
+        "band_median_matched_m": -0.005573635595132174,
+        "mannwhitney_p_pits_lower": 0.004170259692095098,
+        "n_matched": 820,
+        "fillDEM_frac_in_trough": 0.5853658536585366,
+        "fillDEM_matched_frac_in_trough": 0.45975609756097563,
+        "fillDEM_band_median_at_pits_m": -0.059334089081642456,
+        "fillDEM_mannwhitney_p_pits_lower": 0.019056889062594985
+      },
+      "units": {
+        "n_olivine_only": 3,
+        "n_clay": 38,
+        "frac_olivine_only": 0.07317073170731707,
+        "frac_clay": 0.926829268292683,
+        "density_olivine_only_per_km2": 6.337976216325809,
+        "density_clay_per_km2": 41.89714756487288,
+        "density_ratio_oliv_over_clay": 0.15127464719435105
+      },
+      "slope": {
+        "median_pit_slope_deg": 18.914824612753215,
+        "median_random_slope_deg": 10.726964107243617,
+        "mannwhitney_p": 6.714990659188147e-05
+      },
+      "nn": {
+        "median_nn_m": 36.9430960689906,
+        "mean_nn_m": 45.17094035602948,
+        "clark_evans_R": 0.4867224984231682
+      },
+      "rayleigh_mod_3p407": {
+        "n": 41,
+        "R": 0.11319600676590029,
+        "Z": 0.5253467738575754,
+        "p": 0.5941601643101644,
+        "mean_phase_cyc": 0.9247764855069417
+      },
+      "rayleigh_mod_10p222": {
+        "n": 41,
+        "R": 0.08827140164192016,
+        "Z": 0.31946545426099654,
+        "p": 0.7289208365026403,
+        "mean_phase_cyc": 0.6117894726851072
+      }
+    },
+    {
+      "label": ">=3 m",
+      "depth_lo": 3.0,
+      "depth_hi": null,
+      "n": 101,
+      "median_depth_m": 4.14056396484375,
+      "median_eq_diam_m": 4.960635121835734,
+      "ortho": {
+        "n": 101,
+        "median_contrast_DN": -0.12969970703125,
+        "frac_darker": 0.5247524752475248,
+        "wilcoxon_p": 0.4905816064263999
+      },
+      "banding": {
+        "frac_in_trough": 0.7920792079207921,
+        "matched_frac_in_trough": 0.4757425742574257,
+        "band_median_at_pits_m": -0.1383155332962681,
+        "band_median_matched_m": 0.006701716032744217,
+        "mannwhitney_p_pits_lower": 1.8569774703114619e-13,
+        "n_matched": 2020,
+        "fillDEM_frac_in_trough": 0.6831683168316832,
+        "fillDEM_matched_frac_in_trough": 0.498019801980198,
+        "fillDEM_band_median_at_pits_m": -0.08606997519688529,
+        "fillDEM_mannwhitney_p_pits_lower": 3.351567212693994e-06
+      },
+      "units": {
+        "n_olivine_only": 15,
+        "n_clay": 86,
+        "frac_olivine_only": 0.1485148514851485,
+        "frac_clay": 0.8514851485148515,
+        "density_olivine_only_per_km2": 31.689881081629046,
+        "density_clay_per_km2": 94.81986027839652,
+        "density_ratio_oliv_over_clay": 0.3342114298479849
+      },
+      "slope": {
+        "median_pit_slope_deg": 23.707689800686488,
+        "median_random_slope_deg": 10.726964107243617,
+        "mannwhitney_p": 4.1043171729744237e-19
+      },
+      "nn": {
+        "median_nn_m": 15.33887864513272,
+        "mean_nn_m": 26.629376899148443,
+        "clark_evans_R": 0.45035195568215186
+      },
+      "rayleigh_mod_3p407": {
+        "n": 101,
+        "R": 0.12009240918876839,
+        "Z": 1.4566408612210207,
+        "p": 0.23347823157878803,
+        "mean_phase_cyc": 0.06594366704662487
+      },
+      "rayleigh_mod_10p222": {
+        "n": 101,
+        "R": 0.10857556286222429,
+        "Z": 1.1906539379357306,
+        "p": 0.3047525686499577,
+        "mean_phase_cyc": 0.6251742595442584
+      }
+    }
+  ],
+  "deep_pits": {
+    "n_ge_3m": 101,
+    "n_ortho_measured": 101,
+    "n_dark_centre": 78,
+    "dark_threshold_DN": 97.59248161315918,
+    "frac_dark_of_measured": 0.7722772277227723,
+    "random_aperture_null_frac_dark": 0.4168012924071082,
+    "null_note": "cen_min is an aperture minimum (biased low); compare to the random-aperture null, not to 0.16 (Gaussian 1-sigma)",
+    "top20_by_depth": [
+      {
+        "pit_id": 1664,
+        "x": 2311.1,
+        "y": 1320729.0,
+        "depth_max_m": 7.37,
+        "eq_diam_m": 3.4,
+        "cen_min_DN": 87.0,
+        "dark_centre": true,
+        "unit": "Olivine_unit"
+      },
+      {
+        "pit_id": 1710,
+        "x": 2313.8,
+        "y": 1320662.7,
+        "depth_max_m": 6.76,
+        "eq_diam_m": 10.9,
+        "cen_min_DN": 67.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1797,
+        "x": 2074.4,
+        "y": 1320581.1,
+        "depth_max_m": 6.2,
+        "eq_diam_m": 11.5,
+        "cen_min_DN": 76.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1736,
+        "x": 2139.2,
+        "y": 1320635.8,
+        "depth_max_m": 6.1,
+        "eq_diam_m": 10.4,
+        "cen_min_DN": 59.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1731,
+        "x": 2170.5,
+        "y": 1320638.6,
+        "depth_max_m": 6.09,
+        "eq_diam_m": 19.0,
+        "cen_min_DN": 63.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1799,
+        "x": 2130.7,
+        "y": 1320584.0,
+        "depth_max_m": 5.89,
+        "eq_diam_m": 2.8,
+        "cen_min_DN": 88.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1753,
+        "x": 2162.4,
+        "y": 1320627.8,
+        "depth_max_m": 5.85,
+        "eq_diam_m": 5.0,
+        "cen_min_DN": 83.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1816,
+        "x": 2287.0,
+        "y": 1320572.9,
+        "depth_max_m": 5.77,
+        "eq_diam_m": 5.7,
+        "cen_min_DN": 107.0,
+        "dark_centre": false,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1686,
+        "x": 2290.9,
+        "y": 1320694.6,
+        "depth_max_m": 5.77,
+        "eq_diam_m": 3.2,
+        "cen_min_DN": 75.0,
+        "dark_centre": true,
+        "unit": "Olivine_unit"
+      },
+      {
+        "pit_id": 1776,
+        "x": 2075.4,
+        "y": 1320604.9,
+        "depth_max_m": 5.75,
+        "eq_diam_m": 5.6,
+        "cen_min_DN": 76.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1802,
+        "x": 2263.7,
+        "y": 1320576.8,
+        "depth_max_m": 5.74,
+        "eq_diam_m": 9.9,
+        "cen_min_DN": 88.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1767,
+        "x": 2296.3,
+        "y": 1320608.8,
+        "depth_max_m": 5.62,
+        "eq_diam_m": 13.0,
+        "cen_min_DN": 96.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1755,
+        "x": 2312.0,
+        "y": 1320624.1,
+        "depth_max_m": 5.62,
+        "eq_diam_m": 2.3,
+        "cen_min_DN": 95.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1758,
+        "x": 1970.7,
+        "y": 1320617.4,
+        "depth_max_m": 5.57,
+        "eq_diam_m": 12.0,
+        "cen_min_DN": 69.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1688,
+        "x": 1933.1,
+        "y": 1320690.5,
+        "depth_max_m": 5.51,
+        "eq_diam_m": 6.2,
+        "cen_min_DN": 82.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1288,
+        "x": 1700.3,
+        "y": 1320871.6,
+        "depth_max_m": 5.49,
+        "eq_diam_m": 6.3,
+        "cen_min_DN": 53.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1654,
+        "x": 2308.8,
+        "y": 1320737.8,
+        "depth_max_m": 5.44,
+        "eq_diam_m": 2.8,
+        "cen_min_DN": 55.0,
+        "dark_centre": true,
+        "unit": "Olivine_unit"
+      },
+      {
+        "pit_id": 1641,
+        "x": 2272.8,
+        "y": 1320748.8,
+        "depth_max_m": 5.43,
+        "eq_diam_m": 4.7,
+        "cen_min_DN": 61.0,
+        "dark_centre": true,
+        "unit": "Olivine_unit"
+      },
+      {
+        "pit_id": 1793,
+        "x": 2052.2,
+        "y": 1320588.0,
+        "depth_max_m": 5.32,
+        "eq_diam_m": 12.7,
+        "cen_min_DN": 78.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      },
+      {
+        "pit_id": 1678,
+        "x": 1982.3,
+        "y": 1320699.5,
+        "depth_max_m": 5.27,
+        "eq_diam_m": 11.2,
+        "cen_min_DN": 81.0,
+        "dark_centre": true,
+        "unit": "Clay_unit"
+      }
+    ]
+  },
+  "notes": "Rayleigh tests use pit centroid y (map metres). A globally incoherent ripple (phase drift across the window) can defeat the global phase test while still producing the local band-trough association; the two tests are complementary. The raw-DEM band at a pit centre contains the pit's own depression (which has power at the band wavelengths), so trough fractions from the raw DEM overstate the banding association for deep pits; the fill-DEM variant removes that leakage."
+}

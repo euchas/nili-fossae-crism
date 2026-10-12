@@ -1,0 +1,19 @@
+{
+  "script": "contact_mode_block_test.py",
+  "script_md5": "5d908e0d97e0a07545329a93b542bb59",
+  "started_utc": "2026-09-07T14:40:07.554020+00:00",
+  "finished_utc": "2026-09-07T14:40:13.824954+00:00",
+  "split_um": 2.305,
+  "block_px": 28,
+  "nboot": 1000,
+  "seed": 42,
+  "near": [
+    36.1,
+    150.0
+  ],
+  "near90": [
+    90.0,
+    150.0
+  ],
+  "far_min": 400.0
+}

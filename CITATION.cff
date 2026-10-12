@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and the Zenodo data record."
+title: "nili-fossae-crism: analysis code for Valantinas et al. (2026, EPSL), olivine intrusions at Nili Fossae, Mars"
+type: software
+license: MIT
+repository-code: "https://github.com/euchas/nili-fossae-crism"
+version: "1.0.0"
+date-released: "2026-10-12"
+authors:
+  - family-names: Valantinas
+    given-names: Adomas
+    affiliation: "University of Cambridge"
+    orcid: "https://orcid.org/0000-0001-9995-3335"
+keywords:
+  - Mars
+  - Nili Fossae
+  - CRISM
+  - CaSSIS
+  - HiRISE
+  - olivine
+  - intrusions
+  - spectroscopy
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23163697"
+    description: "Companion data record (Zenodo)"
+preferred-citation:
+  type: article
+  title: "An exposed magmatic feeder system for the regional olivine unit in Nili Fossae, Mars"
+  journal: "Earth and Planetary Science Letters"
+  volume: 696
+  start: 120390
+  year: 2026
+  date-published: "2026-10-04"
+  doi: "10.1016/j.epsl.2026.120390"
+  authors:
+    - family-names: Valantinas
+      given-names: Adomas
+      orcid: "https://orcid.org/0000-0001-9995-3335"
+    - family-names: Mustard
+      given-names: John F.
+    - family-names: Tullo
+      given-names: Adriano
+    - family-names: Bramble
+      given-names: Michael S.
+    - family-names: Head
+      given-names: James W.

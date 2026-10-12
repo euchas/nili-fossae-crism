@@ -1,0 +1,15 @@
+{
+  "title": "nili-fossae-crism: analysis code for Valantinas et al. (2026, EPSL), olivine intrusions at Nili Fossae, Mars",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "description": "Analysis code for Valantinas, A., Mustard, J. F., Tullo, A., Bramble, M. S. and Head, J. W. (2026), 'An exposed magmatic feeder system for the regional olivine unit in Nili Fossae, Mars', Earth and Planetary Science Letters 696, 120390, doi:10.1016/j.epsl.2026.120390. CRISM spectral analysis, CaSSIS/HiRISE and DEM-based contact tests, decision log and analysis reports. Derived data products are archived separately at doi:10.5281/zenodo.23163697.",
+  "creators": [
+    {"name": "Valantinas, Adomas", "affiliation": "University of Cambridge", "orcid": "0000-0001-9995-3335"}
+  ],
+  "license": "MIT",
+  "keywords": ["Mars", "Nili Fossae", "CRISM", "CaSSIS", "HiRISE", "olivine", "intrusions", "spectroscopy"],
+  "related_identifiers": [
+    {"identifier": "10.1016/j.epsl.2026.120390", "relation": "isSupplementTo", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23163697", "relation": "isSupplementedBy", "scheme": "doi"}
+  ]
+}

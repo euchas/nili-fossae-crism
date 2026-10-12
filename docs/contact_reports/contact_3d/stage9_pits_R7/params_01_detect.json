@@ -1,0 +1,28 @@
+{
+  "window_px": [
+    1500,
+    1500
+  ],
+  "col0": 4856,
+  "row0": 554,
+  "pixel_m": 1.0085685557891,
+  "valid_fraction": 0.6171715555555556,
+  "area_km2": 1.4125351639345753,
+  "depth_threshold_m": 0.3,
+  "tin_lap_threshold": 0.01,
+  "n_components_raw": 5204,
+  "n_single_or_double_px": 2087,
+  "n_pits": 3117,
+  "density_per_km2": 2206.670729044145,
+  "nn_mean_m": 10.866277832304807,
+  "nn_median_m": 9.362893182238626,
+  "clark_evans_R": 1.0208914528108517,
+  "depth_max_median": 0.63470458984375,
+  "depth_max_max": 7.3702392578125,
+  "eq_diam_median": 3.218885116701465,
+  "eq_diam_max": 273.37792507568827,
+  "tin_frac_mean": 0.0,
+  "pits_touching_tin": 0,
+  "pits_near_tin": 0,
+  "seed": 42
+}

@@ -1,0 +1,33 @@
+{
+  "noise_thr_medlap_m": 0.05,
+  "per_dtm": {
+    "DTEEC_006712_2020_005855_2020_A01": {
+      "n": 14333,
+      "n_clean": 14223,
+      "frac_noise": 0.007674597083653108,
+      "bump_clay_med_all": 2.3628452892090763,
+      "bump_clay_med_clean": 2.3719956888714933,
+      "bump_clay_frac_ge1_clean": 0.678337903395908,
+      "flatedge_n_all": 1587,
+      "flatedge_n_clean": 1575,
+      "flatedge_bump_med_all": 1.7057657145998064,
+      "flatedge_bump_med_clean": 1.712583499708444,
+      "flatedge_frac_ge1_clean": 0.6406349206349207
+    },
+    "DTEEC_002888_2025_002176_2025_A01": {
+      "n": 3277,
+      "n_clean": 3277,
+      "frac_noise": 0.0,
+      "bump_clay_med_all": 1.99582155450571,
+      "bump_clay_med_clean": 1.99582155450571,
+      "bump_clay_frac_ge1_clean": 0.6774488861763809,
+      "flatedge_n_all": 178,
+      "flatedge_n_clean": 178,
+      "flatedge_bump_med_all": 2.0216964519949556,
+      "flatedge_bump_med_clean": 2.0216964519949556,
+      "flatedge_frac_ge1_clean": 0.6853932584269663
+    }
+  },
+  "started_utc": "2026-08-30T20:48:32.225759+00:00",
+  "finished_utc": "2026-08-30T20:49:05.237277+00:00"
+}

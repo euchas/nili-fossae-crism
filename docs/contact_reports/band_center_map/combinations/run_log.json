@@ -1,0 +1,38 @@
+{
+  "script": "contact_band_combinations.py",
+  "script_md5": "ce6d959266b77b654cc161806b208e11",
+  "started_utc": "2026-09-07T14:18:25.046593+00:00",
+  "finished_utc": "2026-09-07T14:18:32.749603+00:00",
+  "bin_um": 0.004,
+  "ranges": {
+    "1.4": [
+      1.37,
+      1.43
+    ],
+    "2.3": [
+      2.28,
+      2.35
+    ]
+  },
+  "fill_tol_m": 30.0,
+  "loci_note": "reference loci approximate; absolute centres carry the ~13 nm inter-chain offset caveat - use for relative placement only",
+  "inputs": {
+    "FRT00003E12": {
+      "oh": "outputs\\revision\\band_center_map\\oh_filter\\FRT00003E12_ohfit_sensor.npz",
+      "mf23": "outputs\\revision\\band_center_map\\matched_filter\\2300\\FRT00003E12_fit_sensor.npz"
+    },
+    "FRT0000871C": {
+      "oh": "outputs\\revision\\band_center_map\\oh_filter\\FRT0000871C_ohfit_sensor.npz",
+      "mf23": "outputs\\revision\\band_center_map\\matched_filter\\2300\\FRT0000871C_fit_sensor.npz"
+    },
+    "FRT0000A4FC": {
+      "oh": "outputs\\revision\\band_center_map\\oh_filter\\FRT0000A4FC_ohfit_sensor.npz",
+      "mf23": "outputs\\revision\\band_center_map\\matched_filter\\2300\\FRT0000A4FC_fit_sensor.npz"
+    },
+    "FRT0000B438": {
+      "oh": "outputs\\revision\\band_center_map\\oh_filter\\FRT0000B438_ohfit_sensor.npz",
+      "mf23": "outputs\\revision\\band_center_map\\matched_filter\\2300\\FRT0000B438_fit_sensor.npz"
+    }
+  },
+  "deterministic": true
+}

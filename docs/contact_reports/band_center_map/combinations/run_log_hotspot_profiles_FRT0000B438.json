@@ -1,0 +1,32 @@
+{
+  "script": "contact_hotspot_profiles.py",
+  "script_md5": "16a468915131a07f0106ac2806bc96cd",
+  "started_utc": "2026-09-08T09:50:06.964213+00:00",
+  "finished_utc": "2026-09-08T09:50:29.968076+00:00",
+  "cube": "FRT0000B438",
+  "dem_priority": [
+    "PDS_002888",
+    "ADI_027691",
+    "ADI_006712",
+    "PDS_006712"
+  ],
+  "hirise_fill_cells": {
+    "PDS_002888": 4025296,
+    "ADI_027691": 7949017,
+    "ADI_006712": 46488,
+    "PDS_006712": 0
+  },
+  "n_top": 5,
+  "sigma_px": 2.5,
+  "peak_win_px": 15,
+  "min_peak_frac": 0.25,
+  "min_sep_m": 600.0,
+  "patch_max_r_m": 180.0,
+  "min_dist_clay_m": 90.0,
+  "flank_m": 250.0,
+  "flank_gap_m": 30.0,
+  "flank_near_m": 130.0,
+  "fine_factor": 6,
+  "step_m": 3.0,
+  "deterministic": true
+}

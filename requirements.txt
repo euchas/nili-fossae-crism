@@ -1,0 +1,24 @@
+# Dependencies of the analysis code. Python >= 3.10; the paper was produced with
+# Python 3.14.0 on Windows 11 (see code/python-version.txt) and the versions in
+# the comments. Minimum versions are given so the scripts also run on newer stacks.
+numpy>=2.0            # 2.4.0
+scipy>=1.14           # 1.17.0
+pandas>=2.2           # 2.3.3
+matplotlib>=3.9       # 3.10.8
+rasterio>=1.4         # 1.5.0
+affine>=2.4           # 2.4.0
+shapely>=2.0
+pyogrio>=0.9
+pyproj>=3.6
+scikit-learn>=1.5     # 1.8.0
+scikit-image>=0.24    # 0.26.0
+joblib>=1.4           # 1.5.3
+hdbscan>=0.8.40       # 0.8.42
+umap-learn>=0.5.7     # 0.5.12
+spectral>=0.23        # 0.24  (ENVI headers in the MTR3 scripts)
+
+# Optional, used by single scripts:
+#   requests      code/release/zenodo_upload.py
+#   GDAL (osgeo)  code/1um_centroid_analysis_CRISM_MTR3_v1.py and two scripts in code/archive/
+#   arcpy         code/release/repoint_arcgis_project.py (ArcGIS Pro Python only)
+#   python-docx   code/archive/write_methods_docx.py

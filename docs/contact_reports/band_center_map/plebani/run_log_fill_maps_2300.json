@@ -1,0 +1,22 @@
+{
+  "script": "contact_plebani_fill_maps_2300.py",
+  "script_md5": "4d2b069678bf839dbde7184bae77f14c",
+  "started_utc": "2026-09-04T15:50:26.053022+00:00",
+  "finished_utc": "2026-09-04T15:50:34.708573+00:00",
+  "fill_tol_m": 30.0,
+  "note": "nearest-sample fill (one real measurement per cell); med3 display-only",
+  "inputs": {
+    "FRT00003E12": {
+      "sensor_npz": "outputs\\revision\\band_center_map\\plebani\\FRT00003E12_bcP_sensor.npz"
+    },
+    "FRT0000871C": {
+      "sensor_npz": "outputs\\revision\\band_center_map\\plebani\\FRT0000871C_bcP_sensor.npz"
+    },
+    "FRT0000A4FC": {
+      "sensor_npz": "outputs\\revision\\band_center_map\\plebani\\FRT0000A4FC_bcP_sensor.npz"
+    },
+    "FRT0000B438": {
+      "sensor_npz": "outputs\\revision\\band_center_map\\plebani\\FRT0000B438_bcP_sensor.npz"
+    }
+  }
+}

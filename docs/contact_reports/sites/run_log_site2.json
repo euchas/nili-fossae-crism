@@ -1,0 +1,38 @@
+{
+  "site": "site2",
+  "lon": 77.1467583,
+  "lat": 22.30705,
+  "label": "site 2 (22.307 N, 77.147 E)",
+  "box_wh_m": [
+    1200.0,
+    1200.0
+  ],
+  "grid_m": 2.0,
+  "panels": [
+    "ctx",
+    "hs",
+    "resid",
+    "slope"
+  ],
+  "x_spectrum_m": 4294092.222715544,
+  "y_spectrum_m": 1321326.0886365012,
+  "x_center_m": 4294092.222715544,
+  "y_center_m": 1321326.0886365012,
+  "crs": "PROJCS[\"MRO Mars Equirectangular [IAU 2000] [20.00N; 0.00E]\",GEOGCS[\"GCS_Mars_2000_IAU_IAG_custom_sphere_lat20\",DATUM[\"D_Mars_2000_IAU_IAG_custom_sphere_lat20\",SPHEROID[\"Mars_2000_IAU_IAG_custom_sphere_lat20\",3393833.26075839,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",20],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "residual_checks": {},
+  "local_refine_applied_m": {},
+  "dem": "CTX_DEM",
+  "dem_label": "CTX 20 m DEM (no HiRISE DTM covers this site)",
+  "ortho": null,
+  "ortho_label": "no HiRISE ortho covers this site",
+  "contour_interval_m": 10,
+  "dem_range_m": [
+    -577.6798706054688,
+    -464.7812805175781
+  ],
+  "ctx_url": "/vsicurl/https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mars/Mars_MRO_CTX_Equi_Mosaics_Robbins/6mpp/MC13_6mpp.16bit.tif",
+  "script": "contact_site_panels.py",
+  "script_md5": "1273a3f000aa99d7dbe47fdf01ec8546",
+  "started_utc": "2026-09-09T07:56:19.512154+00:00",
+  "finished_utc": "2026-09-09T07:56:26.113410+00:00"
+}

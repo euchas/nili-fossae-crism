@@ -1,0 +1,39 @@
+{
+  "script": "contact_band_center_modes.py",
+  "script_md5": "d92cef3317593f9e6baf45eff4d9d851",
+  "started_utc": "2026-09-07T14:16:39.594521+00:00",
+  "finished_utc": "2026-09-07T14:16:54.084234+00:00",
+  "thresholds_um": [
+    2.308,
+    2.311,
+    2.314
+  ],
+  "mode_map_threshold_um": 2.311,
+  "long_tail_um": 2.325,
+  "patch_radii_m": [
+    54.0,
+    108.0
+  ],
+  "strong_depth": 0.015,
+  "kde": {
+    "max_n": 50000,
+    "bw_nm": 2.5,
+    "seed": 42
+  },
+  "patches_csv_md5": "854ded90a2edba77a27209ebc7bbf603",
+  "inputs": {
+    "FRT00003E12": {
+      "center_md5": "e85e12ef5e43a70627b1285cdd98d0a4"
+    },
+    "FRT0000871C": {
+      "center_md5": "02ff05d99f4b9d73868a1eed71d9b2ac"
+    },
+    "FRT0000A4FC": {
+      "center_md5": "7b4b1b683739a6e692a29c2d80dfa8b2"
+    },
+    "FRT0000B438": {
+      "center_md5": "0fa47ce8580dac989f881ebc57bf73d7"
+    }
+  },
+  "note": "patch cross-check is pixel-level and exploratory, not block statistics"
+}

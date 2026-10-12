@@ -1,0 +1,166 @@
+{
+  "script_md5": "d40d26feb8664382959d487b9ef02ec8",
+  "gdb": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\CRISM site Creta Vulcanica\\Nili fossae mapping.gdb",
+  "sub_px": 6,
+  "frame": "ctx",
+  "started_utc": "2026-08-30T18:49:42.061725+00:00",
+  "cubes": {
+    "FRT00003E12": {
+      "grid_from": "outputs\\_v8_mtr3_with_brown\\FRT00003E12\\geotiffs\\FRT00003E12_v8_GMM_k6_aligned.tif",
+      "shape": [
+        828,
+        843
+      ],
+      "shift": {
+        "dx_m": -363.59999999999997,
+        "dy_m": 54.0,
+        "applied": true
+      },
+      "stats": {
+        "clay": {
+          "mean": 0.2491047978401184,
+          "frac_ge_0.9": 0.241855347533825
+        },
+        "cap": {
+          "mean": 0.1870288997888565,
+          "frac_ge_0.9": 0.18299035535612976
+        },
+        "dune": {
+          "mean": 0.06440889835357666,
+          "frac_ge_0.9": 0.06316009650374496
+        },
+        "graben": {
+          "mean": 0.0,
+          "frac_ge_0.9": 0.0
+        },
+        "outline": {
+          "mean": 0.8946307897567749,
+          "frac_ge_0.9": 0.8932484627595257
+        },
+        "oliv": {
+          "mean": 0.3940882682800293,
+          "frac_ge_0.9": 0.38356656981908416
+        },
+        "overlap_excess_max": 0.0
+      }
+    },
+    "FRT0000871C": {
+      "grid_from": "outputs\\_v8_mtr3_with_brown\\FRT0000871C\\geotiffs\\FRT0000871C_v8_GMM_k6_aligned.tif",
+      "shape": [
+        761,
+        826
+      ],
+      "shift": {
+        "dx_m": -358.2,
+        "dy_m": 106.2,
+        "applied": true
+      },
+      "stats": {
+        "clay": {
+          "mean": 0.12224284559488297,
+          "frac_ge_0.9": 0.11758931952032022
+        },
+        "cap": {
+          "mean": 0.08283887803554535,
+          "frac_ge_0.9": 0.07981405885590834
+        },
+        "dune": {
+          "mean": 0.0,
+          "frac_ge_0.9": 0.0
+        },
+        "graben": {
+          "mean": 0.06108865514397621,
+          "frac_ge_0.9": 0.06027814809747592
+        },
+        "outline": {
+          "mean": 0.3591558635234833,
+          "frac_ge_0.9": 0.35765511799499194
+        },
+        "oliv": {
+          "mean": 0.09298545867204666,
+          "frac_ge_0.9": 0.08660867407164652
+        },
+        "overlap_excess_max": 0.0
+      }
+    },
+    "FRT0000A4FC": {
+      "grid_from": "outputs\\_v8_mtr3_with_brown\\FRT0000A4FC\\geotiffs\\FRT0000A4FC_v8_GMM_k6_aligned.tif",
+      "shape": [
+        780,
+        824
+      ],
+      "shift": {
+        "dx_m": -304.2,
+        "dy_m": -14.4,
+        "applied": true
+      },
+      "stats": {
+        "clay": {
+          "mean": 0.3021039068698883,
+          "frac_ge_0.9": 0.29422610156833456
+        },
+        "cap": {
+          "mean": 0.05727749317884445,
+          "frac_ge_0.9": 0.05406708986806074
+        },
+        "dune": {
+          "mean": 0.005632355809211731,
+          "frac_ge_0.9": 0.005507841672890217
+        },
+        "graben": {
+          "mean": 0.07576994597911835,
+          "frac_ge_0.9": 0.07480706995270102
+        },
+        "outline": {
+          "mean": 0.595155656337738,
+          "frac_ge_0.9": 0.5940238361961663
+        },
+        "oliv": {
+          "mean": 0.15437191724777222,
+          "frac_ge_0.9": 0.14514251929300473
+        },
+        "overlap_excess_max": 0.0
+      }
+    },
+    "FRT0000B438": {
+      "grid_from": "outputs\\_v8_mtr3_with_brown\\FRT0000B438\\geotiffs\\FRT0000B438_v8_GMM_k6_aligned.tif",
+      "shape": [
+        823,
+        830
+      ],
+      "shift": {
+        "dx_m": -325.8,
+        "dy_m": -61.199999999999996,
+        "applied": true
+      },
+      "stats": {
+        "clay": {
+          "mean": 0.2642379701137543,
+          "frac_ge_0.9": 0.25729113294002254
+        },
+        "cap": {
+          "mean": 0.11179298907518387,
+          "frac_ge_0.9": 0.10904858803378764
+        },
+        "dune": {
+          "mean": 0.09234222769737244,
+          "frac_ge_0.9": 0.09053565415977397
+        },
+        "graben": {
+          "mean": 0.0,
+          "frac_ge_0.9": 0.0
+        },
+        "outline": {
+          "mean": 0.6678236126899719,
+          "frac_ge_0.9": 0.6664744030801212
+        },
+        "oliv": {
+          "mean": 0.19945047795772552,
+          "frac_ge_0.9": 0.1906864395614048
+        },
+        "overlap_excess_max": 0.0
+      }
+    }
+  },
+  "finished_utc": "2026-08-30T18:50:05.396321+00:00"
+}

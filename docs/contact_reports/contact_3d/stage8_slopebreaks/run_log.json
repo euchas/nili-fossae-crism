@@ -1,0 +1,11 @@
+{
+  "work_res_m": 2.0,
+  "buffer_m": 100.0,
+  "slope_min_deg": 12.0,
+  "excess_min_deg": 7.0,
+  "len_min_m": 100.0,
+  "wid_max_m": 25.0,
+  "fill_lap": 0.02,
+  "started_utc": "2026-08-30T21:21:12.206233+00:00",
+  "finished_utc": "2026-08-30T21:26:56.545097+00:00"
+}

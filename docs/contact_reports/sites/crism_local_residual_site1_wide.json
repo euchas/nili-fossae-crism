@@ -1,0 +1,62 @@
+{
+  "cube": "FRT0000A4FC",
+  "site": "site1_wide",
+  "band_nm": 749.0,
+  "frame_shift_m": [
+    -304.2,
+    -14.4
+  ],
+  "fits": {
+    "4000": {
+      "n_tiles": 20,
+      "n_good": 20,
+      "ok": true,
+      "drow": 0.5,
+      "dcol": -0.4,
+      "mad_row": 0.09999999999999998,
+      "mad_col": 0.8,
+      "conf_median": 0.7031323497824824,
+      "residual_dx_m": -7.2,
+      "residual_dy_m": -9.0,
+      "residual_mad_m": [
+        14.4,
+        1.7999999999999996
+      ],
+      "coarse_px": [
+        1.0,
+        0.0
+      ],
+      "window_m": 4000.0
+    },
+    "6000": {
+      "n_tiles": 56,
+      "n_good": 56,
+      "ok": true,
+      "drow": 0.7,
+      "dcol": 0.0,
+      "mad_row": 0.10000000000000009,
+      "mad_col": 1.75,
+      "conf_median": 0.6502553278415375,
+      "residual_dx_m": 0.0,
+      "residual_dy_m": -12.6,
+      "residual_mad_m": [
+        31.5,
+        1.8000000000000016
+      ],
+      "coarse_px": [
+        1.0,
+        0.0
+      ],
+      "window_m": 6000.0
+    }
+  },
+  "applied": {
+    "dx_m": 0.0,
+    "dy_m": -12.6,
+    "window_m": 6000.0
+  },
+  "script": "contact_crism_local_residual.py",
+  "script_md5": "5bc9139882367c66d33972c7e180d2be",
+  "started_utc": "2026-09-09T09:34:29.807020+00:00",
+  "finished_utc": "2026-09-09T09:34:36.276682+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "ADI_006712": {
+    "ok": true,
+    "label": "ADI_006712 DRG (6 m) vs CTX",
+    "dx_m": -3.3600000000007064,
+    "dy_m": 22.960000000004825,
+    "dx_mad_m": 3.3600000000007064,
+    "dy_mad_m": 2.2400000000004727,
+    "n_good": 268,
+    "conf_median": 0.7195179358099892,
+    "offset_px": 4.1436698710201325,
+    "applied": true
+  },
+  "ADI_027691": {
+    "ok": true,
+    "label": "ADI_027691 DRG (6 m) vs CTX",
+    "dx_m": -30.080000000000002,
+    "dy_m": -201.60000000000002,
+    "dx_mad_m": 3.2,
+    "dy_mad_m": 1.2799999999999956,
+    "n_good": 119,
+    "conf_median": 0.8038811478436539,
+    "offset_px": 31.84870484022859,
+    "applied": true
+  },
+  "note": "shifts are corrections applied on top of the worldfile/file georef; measured vs Robbins CTX",
+  "finished_utc": "2026-08-30T22:32:02.307617+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "DTEEC_006712_2020_005855_2020_A01": {
+    "n_profiles": 14333,
+    "step_med_m": 0.77947998046875,
+    "bump_clay_med_m": 2.3628452892090763,
+    "bump_clay_frac_ge_0.5m": 0.7397613897997628,
+    "bump_clay_frac_ge_1m": 0.6766901555850136,
+    "bump_clay_frac_ge_2x_rms": 0.6275727342496337,
+    "far_rms_clay_med_m": 0.76643883681861,
+    "bump_oliv_med_m": 1.496949533253769,
+    "bump_clay_x_med_m": -10.0
+  },
+  "DTEEC_002888_2025_002176_2025_A01": {
+    "n_profiles": 3277,
+    "step_med_m": 1.79888916015625,
+    "bump_clay_med_m": 1.99582155450571,
+    "bump_clay_frac_ge_0.5m": 0.7574000610314312,
+    "bump_clay_frac_ge_1m": 0.6774488861763809,
+    "bump_clay_frac_ge_2x_rms": 0.7451937747940189,
+    "far_rms_clay_med_m": 0.3052624397417685,
+    "bump_oliv_med_m": 0.6305538118986078,
+    "bump_clay_x_med_m": -5.0
+  }
+}

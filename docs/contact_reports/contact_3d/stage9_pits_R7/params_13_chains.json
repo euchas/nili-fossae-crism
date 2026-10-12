@@ -1,0 +1,411 @@
+{
+  "seed": 42,
+  "link_m": 30.0,
+  "pair_sep_max_m": 60.0,
+  "n_null": 500,
+  "tom_box": {
+    "x0": 1850.0,
+    "x1": 2320.0,
+    "y0": 1320630.0,
+    "y1": 1320710.0
+  },
+  "control_box": {
+    "x0": 1645.0,
+    "x1": 2115.0,
+    "y0": 1320890.0,
+    "y1": 1320970.0
+  },
+  "n_pits_total": 3117,
+  "n_deep_3m": 101,
+  "n_deep_2m": 142,
+  "chains": {
+    "cut_2m": {
+      "n_pits": 142,
+      "link_m": 30.0,
+      "n_chains_ge3": 8,
+      "max_chain_size": 48,
+      "chain_sizes_ge3": [
+        48,
+        16,
+        16,
+        7,
+        5,
+        4,
+        4,
+        3
+      ],
+      "big_chains": [
+        {
+          "n_members": 48,
+          "end_to_end_m": 235.65272642346906,
+          "linearity_pc1": 0.806,
+          "azimuth_deg": 124.6,
+          "centre_x": 1968.9,
+          "centre_y": 1320635.2
+        },
+        {
+          "n_members": 16,
+          "end_to_end_m": 109.98880083884904,
+          "linearity_pc1": 0.724,
+          "azimuth_deg": 37.7,
+          "centre_x": 2291.5,
+          "centre_y": 1320609.2
+        },
+        {
+          "n_members": 16,
+          "end_to_end_m": 118.61919667393376,
+          "linearity_pc1": 0.731,
+          "azimuth_deg": 130.1,
+          "centre_x": 2161.1,
+          "centre_y": 1320596.0
+        },
+        {
+          "n_members": 7,
+          "end_to_end_m": 84.29042427861329,
+          "linearity_pc1": 0.894,
+          "azimuth_deg": 106.8,
+          "centre_x": 1763.9,
+          "centre_y": 1320794.7
+        },
+        {
+          "n_members": 5,
+          "end_to_end_m": 43.69514406113503,
+          "linearity_pc1": 0.963,
+          "azimuth_deg": 44.9,
+          "centre_x": 2368.1,
+          "centre_y": 1320593.7
+        },
+        {
+          "n_members": 4,
+          "end_to_end_m": 19.768972818265492,
+          "linearity_pc1": 0.909,
+          "azimuth_deg": 89.6,
+          "centre_x": 1896.1,
+          "centre_y": 1320750.4
+        },
+        {
+          "n_members": 4,
+          "end_to_end_m": 43.5506526732586,
+          "linearity_pc1": 0.872,
+          "azimuth_deg": 122.6,
+          "centre_x": 1837.7,
+          "centre_y": 1320737.3
+        },
+        {
+          "n_members": 3,
+          "end_to_end_m": 40.483818352804455,
+          "linearity_pc1": 0.998,
+          "azimuth_deg": 91.9,
+          "centre_x": 2353.9,
+          "centre_y": 1320690.6
+        }
+      ],
+      "null": {
+        "n_draws": 500,
+        "nchain_ge3_mean": 5.714,
+        "nchain_ge3_p5_p95": [
+          3,
+          9
+        ],
+        "maxsize_mean": 4.65,
+        "maxsize_p5_p95": [
+          3,
+          7
+        ],
+        "p_nchain_ge_obs": 0.17564870259481039,
+        "p_maxsize_ge_obs": 0.001996007984031936
+      }
+    },
+    "cut_3m": {
+      "n_pits": 101,
+      "link_m": 30.0,
+      "n_chains_ge3": 7,
+      "max_chain_size": 22,
+      "chain_sizes_ge3": [
+        22,
+        14,
+        14,
+        7,
+        4,
+        4,
+        3
+      ],
+      "big_chains": [
+        {
+          "n_members": 22,
+          "end_to_end_m": 186.64091150022378,
+          "linearity_pc1": 0.915,
+          "azimuth_deg": 105.4,
+          "centre_x": 2000.5,
+          "centre_y": 1320602.9
+        },
+        {
+          "n_members": 14,
+          "end_to_end_m": 109.98880083884904,
+          "linearity_pc1": 0.726,
+          "azimuth_deg": 34.7,
+          "centre_x": 2287.7,
+          "centre_y": 1320608.4
+        },
+        {
+          "n_members": 14,
+          "end_to_end_m": 118.61919667393376,
+          "linearity_pc1": 0.712,
+          "azimuth_deg": 132.9,
+          "centre_x": 2156.8,
+          "centre_y": 1320598.3
+        },
+        {
+          "n_members": 7,
+          "end_to_end_m": 72.11097919209793,
+          "linearity_pc1": 0.939,
+          "azimuth_deg": 104.8,
+          "centre_x": 1918.3,
+          "centre_y": 1320701.4
+        },
+        {
+          "n_members": 4,
+          "end_to_end_m": 39.66294482003552,
+          "linearity_pc1": 0.64,
+          "azimuth_deg": 134.4,
+          "centre_x": 1750.6,
+          "centre_y": 1320797.9
+        },
+        {
+          "n_members": 4,
+          "end_to_end_m": 19.768972818265492,
+          "linearity_pc1": 0.909,
+          "azimuth_deg": 89.6,
+          "centre_x": 1896.1,
+          "centre_y": 1320750.4
+        },
+        {
+          "n_members": 3,
+          "end_to_end_m": 40.483818352804455,
+          "linearity_pc1": 0.998,
+          "azimuth_deg": 91.9,
+          "centre_x": 2353.9,
+          "centre_y": 1320690.6
+        }
+      ],
+      "null": {
+        "n_draws": 500,
+        "nchain_ge3_mean": 2.51,
+        "nchain_ge3_p5_p95": [
+          1,
+          5
+        ],
+        "maxsize_mean": 3.586,
+        "maxsize_p5_p95": [
+          3,
+          5
+        ],
+        "p_nchain_ge_obs": 0.007984031936127744,
+        "p_maxsize_ge_obs": 0.001996007984031936
+      }
+    }
+  },
+  "trough_axis": {
+    "azimuth_deg": 94.1,
+    "linearity_pc1": 0.982,
+    "n_px_depth_ge_0p5": 1622
+  },
+  "alignment": {
+    "nn": {
+      "n": 101,
+      "mean_azimuth_deg": 74.3,
+      "R": 0.056,
+      "rayleigh_p": 0.72855616653077,
+      "mode_10deg_bin_deg": 95.0,
+      "diff_to_trough_deg": 19.82635888733003
+    },
+    "pairs_le_60m": {
+      "n_pairs": 406,
+      "mean_azimuth_deg": 106.7,
+      "R": 0.103,
+      "rayleigh_p": 0.013732048090595606,
+      "diff_to_trough_deg": 12.62815795641265
+    },
+    "elongation": {
+      "n": 101,
+      "n_unmatched": 0,
+      "weighted_mean_azimuth_deg": 89.4,
+      "weighted_R": 0.534,
+      "rayleigh_p_weighted_indicative": 1.8771817752027714e-13,
+      "diff_to_trough_deg": 4.738893799529848
+    }
+  },
+  "coalescence": {
+    "tom_box_deep": {
+      "n_seeds": 26,
+      "t_scan": [
+        0.3,
+        0.28,
+        0.26,
+        0.24,
+        0.22,
+        0.2,
+        0.18,
+        0.16,
+        0.14,
+        0.12,
+        0.1,
+        0.08,
+        0.06,
+        0.04,
+        0.02
+      ],
+      "n_components": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "t_merge": null,
+      "merged": null
+    },
+    "tom_box_all": {
+      "n_seeds": 50,
+      "t_scan": [
+        0.3,
+        0.28,
+        0.26,
+        0.24,
+        0.22,
+        0.2,
+        0.18,
+        0.16,
+        0.14,
+        0.12,
+        0.1,
+        0.08,
+        0.06,
+        0.04,
+        0.02
+      ],
+      "n_components": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        49,
+        48,
+        48,
+        48,
+        47,
+        47,
+        47,
+        47,
+        47
+      ],
+      "t_merge": null,
+      "merged": null
+    },
+    "control_box_all": {
+      "n_seeds": 125,
+      "t_scan": [
+        0.3,
+        0.28,
+        0.26,
+        0.24,
+        0.22,
+        0.2,
+        0.18,
+        0.16,
+        0.14,
+        0.12,
+        0.1,
+        0.08,
+        0.06,
+        0.04,
+        0.02
+      ],
+      "n_components": [
+        125,
+        124,
+        124,
+        122,
+        120,
+        119,
+        118,
+        115,
+        115,
+        115,
+        109,
+        108,
+        103,
+        102,
+        98
+      ],
+      "t_merge": null,
+      "merged": null
+    },
+    "full_window_deep_unclipped": {
+      "n_seeds": 27,
+      "t_scan": [
+        0.3,
+        0.28,
+        0.26,
+        0.24,
+        0.22,
+        0.2,
+        0.18,
+        0.16,
+        0.14,
+        0.12,
+        0.1,
+        0.08,
+        0.06,
+        0.04,
+        0.02
+      ],
+      "n_components": [
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26
+      ],
+      "t_merge": null,
+      "merged": null
+    },
+    "n_deep_in_tom_box": 27
+  },
+  "thalweg": {
+    "n_cols": 467,
+    "z_min_range_m": [
+      -630.5845947265625,
+      -596.7755126953125
+    ],
+    "relief_m": 33.80908203125,
+    "pit_offset_above_thalweg_m": {
+      "median": 2.21875,
+      "max": 36.02392578125,
+      "n_within_1m": 11,
+      "n_pits": 27
+    }
+  }
+}

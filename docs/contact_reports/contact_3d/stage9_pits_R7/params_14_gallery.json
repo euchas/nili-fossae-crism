@@ -1,0 +1,185 @@
+{
+  "selection": [
+    {
+      "pit_id": 1664,
+      "depth_max_m": 7.3702392578125,
+      "eq_diam_m": 3.4141432408200862,
+      "unit": "Olivine_unit",
+      "in_suspect_zone": true,
+      "x": 2310.9431125044684,
+      "y": 1320729.7505709128
+    },
+    {
+      "pit_id": 1710,
+      "depth_max_m": 6.76104736328125,
+      "eq_diam_m": 10.856283588903253,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2310.9431125044684,
+      "y": 1320656.1250663402
+    },
+    {
+      "pit_id": 1797,
+      "depth_max_m": 6.19561767578125,
+      "eq_diam_m": 11.549923179591865,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2076.9552075613974,
+      "y": 1320578.4652875443
+    },
+    {
+      "pit_id": 1736,
+      "depth_max_m": 6.09515380859375,
+      "eq_diam_m": 10.43037988965326,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2141.5035951319,
+      "y": 1320628.893715334
+    },
+    {
+      "pit_id": 1731,
+      "depth_max_m": 6.09002685546875,
+      "eq_diam_m": 19.009145065835074,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2172.769220361361,
+      "y": 1320631.919421001
+    },
+    {
+      "pit_id": 1799,
+      "depth_max_m": 5.89166259765625,
+      "eq_diam_m": 2.787636282927106,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2130.4093410182195,
+      "y": 1320584.5166988792
+    },
+    {
+      "pit_id": 1753,
+      "depth_max_m": 5.85089111328125,
+      "eq_diam_m": 4.960635121835734,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2162.6835348034706,
+      "y": 1320627.885146778
+    },
+    {
+      "pit_id": 1816,
+      "depth_max_m": 5.77178955078125,
+      "eq_diam_m": 5.690238734700143,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2286.73746716553,
+      "y": 1320572.41387621
+    },
+    {
+      "pit_id": 1686,
+      "depth_max_m": 5.771728515625,
+      "eq_diam_m": 3.218885116701465,
+      "unit": "Olivine_unit",
+      "in_suspect_zone": true,
+      "x": 2290.771741388686,
+      "y": 1320694.4506714602
+    },
+    {
+      "pit_id": 1776,
+      "depth_max_m": 5.7532958984375,
+      "eq_diam_m": 5.575272565854212,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2072.9209333382405,
+      "y": 1320603.6795014392
+    },
+    {
+      "pit_id": 1802,
+      "depth_max_m": 5.7442626953125,
+      "eq_diam_m": 9.921270243671469,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2265.557527493959,
+      "y": 1320574.4310133213
+    },
+    {
+      "pit_id": 1767,
+      "depth_max_m": 5.62353515625,
+      "eq_diam_m": 12.975740736504632,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2301.8659955023663,
+      "y": 1320606.705207107
+    },
+    {
+      "pit_id": 1755,
+      "depth_max_m": 5.618408203125,
+      "eq_diam_m": 2.276095493880057,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 2311.951681060257,
+      "y": 1320623.850872555
+    },
+    {
+      "pit_id": 1758,
+      "depth_max_m": 5.5712890625,
+      "eq_diam_m": 12.043965274082735,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 1972.0640777593308,
+      "y": 1320612.7566184413
+    },
+    {
+      "pit_id": 1688,
+      "depth_max_m": 5.51251220703125,
+      "eq_diam_m": 6.233344225169845,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 1930.712766971977,
+      "y": 1320690.416397237
+    },
+    {
+      "pit_id": 1288,
+      "depth_max_m": 5.486083984375,
+      "eq_diam_m": 6.336381688611691,
+      "unit": "Clay_unit",
+      "in_suspect_zone": true,
+      "x": 1697.7334305846955,
+      "y": 1320870.9501687232
+    },
+    {
+      "pit_id": 1403,
+      "depth_max_m": 3.4400634765625,
+      "eq_diam_m": 19.31331070020879,
+      "unit": "Olivine_unit",
+      "in_suspect_zone": true,
+      "x": 2009.3811143235275,
+      "y": 1320833.6331321592
+    },
+    {
+      "pit_id": 1414,
+      "depth_max_m": 1.40411376953125,
+      "eq_diam_m": 15.851170897355294,
+      "unit": "Olivine_unit",
+      "in_suspect_zone": true,
+      "x": 1917.60137574672,
+      "y": 1320830.6074264918
+    }
+  ],
+  "half_m": 40.0,
+  "half_567": 220.0,
+  "n_top": 16,
+  "flagship": [
+    1403,
+    1414
+  ],
+  "seed": 42,
+  "red": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\PSP_002176_2025_RED_A_01_ORTHO.JP2",
+  "irb": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\PSP_002888_2025_IRB_A_01_ORTHO.JP2",
+  "shift": [
+    -107.1,
+    -123.4
+  ],
+  "figures": [
+    "outputs\\revision\\contact_3d\\stage9_pits_R7\\fig_14_deep_pit_gallery_1.png",
+    "outputs\\revision\\contact_3d\\stage9_pits_R7\\fig_14_deep_pit_gallery_2.png",
+    "outputs\\revision\\contact_3d\\stage9_pits_R7\\fig_14_pit567.png"
+  ]
+}

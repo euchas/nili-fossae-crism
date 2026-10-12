@@ -1,0 +1,38 @@
+{
+  "script": "contact_band_center_1400_plebani.py",
+  "script_md5": "9f4735d2b2a7f1d1b8f5b19e248087ec",
+  "started_utc": "2026-09-07T14:17:01.041680+00:00",
+  "finished_utc": "2026-09-07T14:18:39.319808+00:00",
+  "left_anchor": [
+    1.316,
+    1.342
+  ],
+  "right_anchor": [
+    1.505,
+    1.535
+  ],
+  "search_um": [
+    1.36,
+    1.49
+  ],
+  "strong_depth": 0.008,
+  "weak_depth": 0.003,
+  "prehnite_min_um": 1.46,
+  "tier_note": "0.008/0.003: ratioed-chain bands are shallower (unit-shared component divided out)",
+  "chain": "TRR3 sensor space, crism_ml bland-pixel column ratio (cached if2), no despike",
+  "deterministic": true,
+  "inputs": {
+    "FRT00003E12": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt00003e12_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000871C": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000871c_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000A4FC": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000a4fc_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000B438": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000b438_07_if166l_trr3_ratioed_bland.npz"
+    }
+  }
+}

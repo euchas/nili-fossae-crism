@@ -1,0 +1,22 @@
+{
+  "script": "contact_plebani_fill_maps.py",
+  "script_md5": "c7f7928254e61c9c9cfd45aa9e5bd566",
+  "started_utc": "2026-09-04T15:37:26.440085+00:00",
+  "finished_utc": "2026-09-04T15:39:08.262414+00:00",
+  "fill_tol_m": 30.0,
+  "note": "nearest-sample fill (one real measurement per cell, no value interpolation); med3 variant is display-only",
+  "inputs": {
+    "FRT00003E12": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt00003e12_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000871C": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000871c_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000A4FC": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000a4fc_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000B438": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000b438_07_if166l_trr3_ratioed_bland.npz"
+    }
+  }
+}

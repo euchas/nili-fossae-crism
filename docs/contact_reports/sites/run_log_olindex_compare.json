@@ -1,0 +1,11 @@
+{
+  "script": "contact_olindex_compare.py",
+  "script_md5": "9d475d725a3c9303b6b98b3614ab2843",
+  "cube": "FRT0000A4FC",
+  "hdr": "cubes\\frt0000a4fc_07_if166j_mtr3\\frt0000a4fc_07_if166j_mtr3.hdr",
+  "kernel_channels": 7,
+  "spatial_filter": null,
+  "corr_in_window": 0.8633038255816624,
+  "started_utc": "2026-09-09T08:29:10.089358+00:00",
+  "finished_utc": "2026-09-09T08:29:17.399533+00:00"
+}

@@ -1,0 +1,104 @@
+{
+  "window": {
+    "lon": 77.1370253,
+    "lat": 21.9842103,
+    "label": "site 1 (21.984 N, 77.137 E)",
+    "center_offset_m": [
+      -214.0,
+      -290.0
+    ],
+    "box_wh_m": [
+      380.0,
+      270.0
+    ],
+    "panels": [
+      "hs",
+      "resid",
+      "slope",
+      "ortho"
+    ]
+  },
+  "grid_m": 0.5,
+  "cassis": {
+    "file": "GSA_MY36_014433_022_0_nodatacorr.tif",
+    "shift_m": [
+      -12.0,
+      19.200000000000003
+    ],
+    "fit": {
+      "n_tiles": 133,
+      "n_good": 133,
+      "ok": true,
+      "drow": -3.2,
+      "dcol": -2.0,
+      "mad_row": 0.6999999999999997,
+      "mad_col": 0.19999999999999996,
+      "conf_median": 0.7548223213532533,
+      "dx_m": -12.0,
+      "dy_m": 19.200000000000003,
+      "mad_m": [
+        1.1999999999999997,
+        4.199999999999998
+      ],
+      "coarse_px": [
+        -3.0,
+        -2.0
+      ]
+    }
+  },
+  "dem": {
+    "key": "ADI_006712",
+    "frame_shift_m": [
+      -3.3600000000007064,
+      22.960000000004825
+    ],
+    "local_refine_m": [
+      -9.0,
+      1.2000000000000002
+    ]
+  },
+  "dike_matrix_shift_m": [
+    -12.0,
+    19.200000000000003
+  ],
+  "geomap_shift_m": [
+    -12.0,
+    19.200000000000003
+  ],
+  "intrusion1_matrix_share_in_box": 0.7448112746899386,
+  "intrusion1_box_m": {
+    "x_from_W": 46.31357256509364,
+    "x_to": 132.76061115041375,
+    "y_from_N": 74.40676509751938,
+    "y_to": 135.82966093462892
+  },
+  "intrusion1_fractions": {
+    "olivine_unit": 0.0,
+    "clay": 0.29927841114730364,
+    "matrix": 0.4501089546386778,
+    "dike_blocks": 0.2506126342140186
+  },
+  "intrusion2_profile": {
+    "P1_window_m": [
+      213.8,
+      71.1
+    ],
+    "P2_window_m": [
+      280.0,
+      49.0
+    ],
+    "length_m": 69.79147512411525,
+    "azimuth_deg": 71.53909024568149,
+    "extend_m": 30.0,
+    "z_range_m": [
+      -646.453125,
+      -643.2406616210938
+    ],
+    "vertical_exaggeration": 24.818025415569604
+  },
+  "script": "contact_paper_fig7.py",
+  "script_md5": "b714da6c932a9ac672c10893ef7d21d8",
+  "caption": "Fig. 7 draft. (a) CaSSIS pansharpened colour (NIR-PAN-BLU, 0.25 m) of the Fig. 6 box (380 x 270 m); white box = intrusion 1, red line A-A' = intrusion 2 transect (70 m, azimuth 72 deg). (b) Slope of the HiRISE stereo DEM (PSP_006712/005855, 0.8 m). (c) Geologic map of intrusion 1 (86 x 61 m): olivine blocks orange, amorphous matrix black, clay basement blue. (d) Elevation along A-A' sampled every 0.5 m from the HiRISE stereo DEM (PSP_006712/PSP_005855, 0.8 m), vertical exaggeration 25:1 as drawn (drawn transect shaded, 30 m extension each side). Registration: CaSSIS -12.0/+19.2 m, HiRISE local -9.0/+1.2 m on top of the frame shifts; the dike/matrix polygons and the gdb units (all digitised on the pansharpened product) carry the same CaSSIS correction.",
+  "started_utc": "2026-10-05T13:47:13.262823+00:00",
+  "finished_utc": "2026-10-05T13:48:09.554097+00:00"
+}

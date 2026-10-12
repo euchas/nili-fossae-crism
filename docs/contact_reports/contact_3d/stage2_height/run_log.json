@@ -1,0 +1,77 @@
+{
+  "script_md5": "34ea1d3fe8a432d60d607bb7c0cfbf0f",
+  "ctx_dem": "OpenFileGDB:Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\Isidis Project\\Isidis Project.gdb:P03_002176_2024_XI_22N283W__P05_002888_2025_XI_22N283W_dtm_interpolate",
+  "hirise": {
+    "DTEEC_006712_2020_005855_2020_A01": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\DTEEC_006712_2020_005855_2020_A01.IMG",
+    "DTEEC_002888_2025_002176_2025_A01": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\DTEEC_002888_2025_002176_2025_A01.IMG"
+  },
+  "hirise_shifts_used": {
+    "DTEEC_006712_2020_005855_2020_A01": {
+      "n_tiles": 176,
+      "n_good": 169,
+      "ok": true,
+      "drow": 17.5,
+      "dcol": -12.5,
+      "mad_row": 0.8999999999999986,
+      "mad_col": 0.5999999999999996,
+      "conf_median": 0.7006361473015411,
+      "coarse_drow": 17.0,
+      "coarse_dcol": -13.0,
+      "res_m": 6.05206413095784,
+      "tile_px": 256,
+      "stride_px": 128,
+      "hp_sigma_px": 18.175617048953953,
+      "label": "PSP_006712_2020_RED_A_01_ORTHO.JP2 (6 m) vs CTX, label georef",
+      "dx_m": -75.650801636973,
+      "dy_m": -105.9111222917622,
+      "dx_mad_m": 3.631238478574702,
+      "dy_mad_m": 5.446857717862048
+    },
+    "DTEEC_002888_2025_002176_2025_A01": {
+      "n_tiles": 72,
+      "n_good": 72,
+      "ok": true,
+      "drow": 20.4,
+      "dcol": -17.7,
+      "mad_row": 0.6999999999999993,
+      "mad_col": 1.0,
+      "conf_median": 0.7577638043856996,
+      "coarse_drow": 20.0,
+      "coarse_dcol": -19.0,
+      "res_m": 6.05141133473448,
+      "tile_px": 256,
+      "stride_px": 128,
+      "hp_sigma_px": 18.177577744320782,
+      "label": "PSP_002176_2025_RED_A_01_ORTHO.JP2 (6 m) vs CTX, label georef",
+      "dx_m": -107.10998062480029,
+      "dy_m": -123.44879122858339,
+      "dx_mad_m": 6.05141133473448,
+      "dy_mad_m": 4.235987934314132
+    }
+  },
+  "contact_frac": 0.5,
+  "oliv_min": 0.9,
+  "idw": {
+    "k": 25,
+    "r_max_m": 1000.0,
+    "min_pts": 6
+  },
+  "h_edges": [
+    -Infinity,
+    -10.0,
+    -5.0,
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    30.0,
+    40.0,
+    60.0,
+    80.0,
+    120.0,
+    Infinity
+  ],
+  "started_utc": "2026-08-30T19:11:36.076263+00:00",
+  "finished_utc": "2026-08-30T19:11:54.362066+00:00"
+}

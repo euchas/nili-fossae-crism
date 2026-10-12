@@ -1,0 +1,8 @@
+{
+  "script": "contact_combo_stacks.py",
+  "script_md5": "e946545d262aa78b7880c3411266549e",
+  "started_utc": "2026-09-07T14:20:53.889142+00:00",
+  "finished_utc": "2026-09-07T14:22:21.162717+00:00",
+  "split_um": 2.305,
+  "deterministic": true
+}

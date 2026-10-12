@@ -1,0 +1,51 @@
+{
+  "script": "contact_oh_matched_filter.py",
+  "script_md5": "05d42f2affd226d0c4be8971c1de8f4c",
+  "started_utc": "2026-09-05T18:15:51.355869+00:00",
+  "finished_utc": "2026-09-05T18:17:43.027346+00:00",
+  "fit_win": [
+    1.28,
+    1.6
+  ],
+  "signal_win": [
+    1.37,
+    1.43
+  ],
+  "null_wins": [
+    [
+      1.305,
+      1.35
+    ],
+    [
+      1.47,
+      1.515
+    ]
+  ],
+  "bg_order": 3,
+  "guard_nm": 12.0,
+  "centre_step_um": 0.002,
+  "fwhm_nm": [
+    20.0,
+    26.0,
+    32.0,
+    40.0
+  ],
+  "null_percentile": 99.0,
+  "fill_tol_m": 30.0,
+  "threshold_note": "empirical: 99th pct of max-SNR in two band-free windows (more trial positions than the signal window, so conservative)",
+  "deterministic": true,
+  "inputs": {
+    "FRT00003E12": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt00003e12_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000871C": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000871c_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000A4FC": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000a4fc_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000B438": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000b438_07_if166l_trr3_ratioed_bland.npz"
+    }
+  }
+}

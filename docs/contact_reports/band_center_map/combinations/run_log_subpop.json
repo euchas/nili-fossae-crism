@@ -1,0 +1,10 @@
+{
+  "script": "contact_combo_subpop.py",
+  "script_md5": "1fc8756c6a97deff472b982a34af1966",
+  "started_utc": "2026-09-07T13:49:18.930658+00:00",
+  "finished_utc": "2026-09-07T13:49:19.890532+00:00",
+  "split_um": 2.305,
+  "rim_m": 90.0,
+  "have_2500": true,
+  "deterministic": true
+}

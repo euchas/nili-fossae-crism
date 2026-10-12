@@ -1,0 +1,96 @@
+{
+  "n_stack_ortho": 1888,
+  "n_stack_dem": 1828,
+  "ortho_centre_edge_ratio": 0.9980379348246688,
+  "ew_asym_frac": 0.004214095794374373,
+  "ns_asym_frac": -0.0018902967005812732,
+  "dem_stack_centre_m": -1.114012770371051,
+  "dem_stack_radial": [
+    -1.114012770371051,
+    -0.8672462772227482,
+    -0.4156461774129054,
+    -0.11369183329575953,
+    0.03923453561238874,
+    0.1060546015232345,
+    0.1147669173782538,
+    0.10340980332233364,
+    0.0861312607445915,
+    0.07485995355268016
+  ],
+  "scene_median_DN": 122.0,
+  "scene_std_DN": 24.40751838684082,
+  "deep_chips": [
+    {
+      "pit_id": 1664,
+      "depth": 7.3702392578125,
+      "centre_min_DN": 64.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1799,
+      "depth": 5.89166259765625,
+      "centre_min_DN": 88.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1753,
+      "depth": 5.85089111328125,
+      "centre_min_DN": 89.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1816,
+      "depth": 5.77178955078125,
+      "centre_min_DN": 111.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1686,
+      "depth": 5.771728515625,
+      "centre_min_DN": 86.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1776,
+      "depth": 5.7532958984375,
+      "centre_min_DN": 78.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1755,
+      "depth": 5.618408203125,
+      "centre_min_DN": 95.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1688,
+      "depth": 5.51251220703125,
+      "centre_min_DN": 85.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1288,
+      "depth": 5.486083984375,
+      "centre_min_DN": 80.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1654,
+      "depth": 5.43768310546875,
+      "centre_min_DN": 55.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1641,
+      "depth": 5.42547607421875,
+      "centre_min_DN": 70.0,
+      "scene_med": 122.0
+    },
+    {
+      "pit_id": 1817,
+      "depth": 5.2159423828125,
+      "centre_min_DN": 123.0,
+      "scene_med": 122.0
+    }
+  ]
+}

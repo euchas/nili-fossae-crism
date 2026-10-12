@@ -1,0 +1,31 @@
+{
+  "script": "contact_mode_elevation.py",
+  "script_md5": "a52ad6a94010226758d26068b76e775c",
+  "started_utc": "2026-09-07T14:40:08.896024+00:00",
+  "finished_utc": "2026-09-07T14:40:26.100733+00:00",
+  "win_px": 15,
+  "block_px": 28,
+  "nboot": 1000,
+  "seed": 42,
+  "dbins": [
+    [
+      36.1,
+      90.0
+    ],
+    [
+      90.0,
+      250.0
+    ],
+    [
+      250.0,
+      Infinity
+    ]
+  ],
+  "hirise_for": {
+    "FRT00003E12": "DTEEC_002888_2025_002176_2025_A01",
+    "FRT0000B438": "DTEEC_002888_2025_002176_2025_A01",
+    "FRT0000871C": "DTEEC_006712_2020_005855_2020_A01",
+    "FRT0000A4FC": "DTEEC_006712_2020_005855_2020_A01"
+  },
+  "note": "z_rel = z - local olivine-unit mean (270 m); h_above_contact secondary <=150 m"
+}

@@ -1,0 +1,9 @@
+{
+  "script": "contact_combo_mode_map.py",
+  "script_md5": "aa57fd077c8f9ee0736f941f5352b048",
+  "started_utc": "2026-09-07T14:27:12.971508+00:00",
+  "finished_utc": "2026-09-07T14:27:18.229471+00:00",
+  "split_um": 2.305,
+  "fill_tol_m": 30.0,
+  "deterministic": true
+}

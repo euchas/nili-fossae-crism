@@ -1,0 +1,11 @@
+{
+  "rms_band_m": 0.12010198396241904,
+  "rms_detrended_m": 4.094236968067467,
+  "band_variance_fraction": 0.0008605070096944394,
+  "rms_highpass_m": 1.5990330733590243,
+  "frac_pits_in_trough": 0.6121270452358036,
+  "mannwhitney_p_pits_lower": 6.187327236009352e-42,
+  "band_mean_at_pits": -0.023515098817998414,
+  "band_mean_random": 0.00018403615045333552,
+  "deep_pits_median_dist_to_nodata_m": 345.99193838330166
+}

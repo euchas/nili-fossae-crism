@@ -1,0 +1,45 @@
+{
+  "script": "contact_olindex_anatomy.py",
+  "script_md5": "cbddc4553fe65648ee65852e1bcf69e7",
+  "cube": "FRT0000A4FC",
+  "window_rows": [
+    380,
+    424
+  ],
+  "window_cols": [
+    166,
+    210
+  ],
+  "stats": {
+    "OLINDEX2": {
+      "olivine unit": {
+        "median": 0.14288106560707092,
+        "mad": 0.03706805408000946,
+        "n": 359
+      },
+      "clay unit": {
+        "median": 0.13888311386108398,
+        "mad": 0.017187852412462234,
+        "n": 930
+      },
+      "contrast_olivine_minus_clay": 0.0039979517459869385,
+      "contrast_over_scatter": 0.14737388072362873
+    },
+    "OLINDEX3": {
+      "olivine unit": {
+        "median": 0.14702078700065613,
+        "mad": 0.024464458227157593,
+        "n": 359
+      },
+      "clay unit": {
+        "median": 0.1379038691520691,
+        "mad": 0.014639358967542648,
+        "n": 930
+      },
+      "contrast_olivine_minus_clay": 0.009116917848587036,
+      "contrast_over_scatter": 0.46629298634419025
+    }
+  },
+  "started_utc": "2026-09-09T09:00:16.985770+00:00",
+  "finished_utc": "2026-09-09T09:00:18.738411+00:00"
+}

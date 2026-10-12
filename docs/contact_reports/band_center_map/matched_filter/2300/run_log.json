@@ -1,0 +1,56 @@
+{
+  "script": "contact_band_matched_filter.py",
+  "script_md5": "7a64579d41426fc6d8c14c3ea3b806bf",
+  "band": "2300",
+  "started_utc": "2026-09-05T18:38:53.447542+00:00",
+  "finished_utc": "2026-09-05T18:40:34.684141+00:00",
+  "config": {
+    "label": "2.3 um metal-OH",
+    "fit_win": [
+      2.14,
+      2.48
+    ],
+    "signal_win": [
+      2.28,
+      2.35
+    ],
+    "null_wins": [
+      [
+        2.175,
+        2.225
+      ],
+      [
+        2.4,
+        2.45
+      ]
+    ],
+    "guard_nm": 15.0,
+    "fwhm_nm": [
+      25.0,
+      35.0,
+      45.0,
+      60.0
+    ],
+    "ref_param": "D2300",
+    "note": "null windows may hold weak real features (Al-OH 2.21, talc 2.39 tail) -> threshold is conservative; olivine-unit shared 2.32 band partly cancels against olivine-like bland denominators"
+  },
+  "centre_step_um": 0.002,
+  "null_percentile": 99.0,
+  "bg_order": 3,
+  "fill_tol_m": 30.0,
+  "deterministic": true,
+  "inputs": {
+    "FRT00003E12": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt00003e12_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000871C": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000871c_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000A4FC": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000a4fc_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000B438": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000b438_07_if166l_trr3_ratioed_bland.npz"
+    }
+  }
+}

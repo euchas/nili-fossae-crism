@@ -1,0 +1,50 @@
+#### MATPLOTLIBRC FORMAT
+## matplotlib configuration for plots for publications.
+#### FIGURE
+figure.figsize    : 12, 8
+savefig.dpi       : 300
+savefig.bbox      : standard
+#### FONT
+font.size         : 16
+font.family       : sans-serif
+font.sans-serif   : Microsoft Sans Serif
+#### SPECIFIC FONT SIZES
+# Legends
+legend.fontsize   : 14
+# Axis labels (xlabel, ylabel)
+axes.labelsize    : 18
+# Title
+axes.titlesize    : 20
+# Tick labels (numbers on axes)
+xtick.labelsize   : 16
+ytick.labelsize   : 16
+# Figure title (if using fig.suptitle)
+figure.titlesize  : 22
+#### LaTeX
+mathtext.default  : regular
+#COLOR
+lines.color: red
+lines.linestyle: -
+lines.linewidth: 2
+#scatter.marker: black
+#### AXES
+axes.linewidth  : 1.5
+axes.grid       : False
+#### TICKS
+xtick.direction     : in
+xtick.top           : True
+xtick.major.width   : 1
+xtick.major.size    : 5
+xtick.minor.visible : True
+xtick.minor.width   : 1
+xtick.minor.size    : 3
+ytick.direction     : in
+ytick.right         : True
+ytick.major.width   : 1
+ytick.major.size    : 5
+ytick.minor.visible : True
+ytick.minor.width   : 1
+ytick.minor.size    : 3
+#### PADDING
+#plt.subplots_adjust(bottom=2)
+#### LEGEND

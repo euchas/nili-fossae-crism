@@ -1,0 +1,15 @@
+{
+  "script_md5": "9a78a3517a56215e0fd4a7df5fecdeb6",
+  "frame": "pds",
+  "map_contact_frac": 0.5,
+  "oliv_min": 0.9,
+  "pure": 0.8,
+  "started_utc": "2026-08-30T18:49:30.679937+00:00",
+  "finished_utc": "2026-08-30T18:49:41.106516+00:00",
+  "inputs": {
+    "FRT00003E12": "outputs\\revision\\contact_3d\\geomap\\frame_pds\\FRT00003E12_fractions.npz",
+    "FRT0000871C": "outputs\\revision\\contact_3d\\geomap\\frame_pds\\FRT0000871C_fractions.npz",
+    "FRT0000A4FC": "outputs\\revision\\contact_3d\\geomap\\frame_pds\\FRT0000A4FC_fractions.npz",
+    "FRT0000B438": "outputs\\revision\\contact_3d\\geomap\\frame_pds\\FRT0000B438_fractions.npz"
+  }
+}

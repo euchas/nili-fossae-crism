@@ -1,0 +1,56 @@
+{
+  "script": "contact_band_matched_filter.py",
+  "script_md5": "f233bd8366094f98879d387d72650979",
+  "band": "2500",
+  "started_utc": "2026-09-07T14:19:03.889368+00:00",
+  "finished_utc": "2026-09-07T14:20:21.585054+00:00",
+  "config": {
+    "label": "2.5 um carbonate",
+    "fit_win": [
+      2.36,
+      2.64
+    ],
+    "signal_win": [
+      2.48,
+      2.54
+    ],
+    "null_wins": [
+      [
+        2.395,
+        2.44
+      ],
+      [
+        2.575,
+        2.62
+      ]
+    ],
+    "guard_nm": 15.0,
+    "fwhm_nm": [
+      30.0,
+      40.0,
+      55.0,
+      70.0
+    ],
+    "ref_param": "BD2500_2",
+    "note": "Mg-carbonate 2.50-2.51 um partner of the 2.30 um band (Ca/Fe carbonate 2.53); short null may hold the 2.39/2.46 um talc bands -> conservative threshold"
+  },
+  "centre_step_um": 0.002,
+  "null_percentile": 99.0,
+  "bg_order": 3,
+  "fill_tol_m": 30.0,
+  "deterministic": true,
+  "inputs": {
+    "FRT00003E12": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt00003e12_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000871C": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000871c_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000A4FC": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000a4fc_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000B438": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000b438_07_if166l_trr3_ratioed_bland.npz"
+    }
+  }
+}

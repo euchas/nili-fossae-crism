@@ -1,0 +1,28 @@
+{
+  "script": "contact_anomaly_ratios.py",
+  "script_md5": "cc788706a045af5523fba59d78a16e38",
+  "started_utc": "2026-09-07T14:16:49.150083+00:00",
+  "finished_utc": "2026-09-07T14:16:59.705130+00:00",
+  "deciles": [
+    0.1,
+    0.9
+  ],
+  "tail_um": 2.325,
+  "tail_min_n": 300,
+  "denominator": "median I/F of ALL valid unit pixels (f >= 0.5), per unit per cube",
+  "note": "unit-internal ratios; stack-level readouts; descriptive, no CIs",
+  "inputs": {
+    "FRT00003E12": {
+      "center_md5": "e85e12ef5e43a70627b1285cdd98d0a4"
+    },
+    "FRT0000871C": {
+      "center_md5": "02ff05d99f4b9d73868a1eed71d9b2ac"
+    },
+    "FRT0000A4FC": {
+      "center_md5": "7b4b1b683739a6e692a29c2d80dfa8b2"
+    },
+    "FRT0000B438": {
+      "center_md5": "0fa47ce8580dac989f881ebc57bf73d7"
+    }
+  }
+}

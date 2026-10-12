@@ -1,0 +1,23 @@
+{
+  "script": "contact_anomaly_pixel_maps.py",
+  "script_md5": "8466f9e37f007d931c78fef07537e3f0",
+  "started_utc": "2026-09-07T14:15:47.500667+00:00",
+  "finished_utc": "2026-09-07T14:15:54.293814+00:00",
+  "decile": 0.9,
+  "tail_um": 2.325,
+  "strong_depth": 0.015,
+  "inputs": {
+    "FRT00003E12": {
+      "center_md5": "e85e12ef5e43a70627b1285cdd98d0a4"
+    },
+    "FRT0000871C": {
+      "center_md5": "02ff05d99f4b9d73868a1eed71d9b2ac"
+    },
+    "FRT0000A4FC": {
+      "center_md5": "7b4b1b683739a6e692a29c2d80dfa8b2"
+    },
+    "FRT0000B438": {
+      "center_md5": "0fa47ce8580dac989f881ebc57bf73d7"
+    }
+  }
+}

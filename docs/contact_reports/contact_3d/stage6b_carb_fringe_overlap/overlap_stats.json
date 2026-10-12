@@ -1,0 +1,20 @@
+{
+  "DTEEC_006712_2020_005855_2020_A01": {
+    "n_patches_in_dtm": 30,
+    "n_sites_near_carb": 257,
+    "bump_near_carb_med": 1.7508780347802713,
+    "bump_far_med": 2.3884145622716346,
+    "cliffs_delta": -0.1441828431582871,
+    "mwu_p_descriptive": 7.277495799448961e-05,
+    "note": "006712 caution: pervasive TIN fill"
+  },
+  "DTEEC_002888_2025_002176_2025_A01": {
+    "n_patches_in_dtm": 61,
+    "n_sites_near_carb": 321,
+    "bump_near_carb_med": 1.246043837379375,
+    "bump_far_med": 2.137352913665154,
+    "cliffs_delta": -0.24070373789620558,
+    "mwu_p_descriptive": 1.310518672501788e-12,
+    "note": "clean DTM"
+  }
+}

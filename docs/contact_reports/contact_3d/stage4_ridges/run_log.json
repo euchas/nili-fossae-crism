@@ -1,0 +1,43 @@
+{
+  "script_md5": "c5f493bf10333d4f23225647211315c1",
+  "dtm": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\DTEEC_006712_2020_005855_2020_A01.IMG",
+  "ortho": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\PSP_006712_2020_RED_A_01_ORTHO.JP2",
+  "shift_applied": {
+    "n_tiles": 176,
+    "n_good": 169,
+    "ok": true,
+    "drow": 17.5,
+    "dcol": -12.5,
+    "mad_row": 0.8999999999999986,
+    "mad_col": 0.5999999999999996,
+    "conf_median": 0.7006361473015411,
+    "coarse_drow": 17.0,
+    "coarse_dcol": -13.0,
+    "res_m": 6.05206413095784,
+    "tile_px": 256,
+    "stride_px": 128,
+    "hp_sigma_px": 18.175617048953953,
+    "label": "PSP_006712_2020_RED_A_01_ORTHO.JP2 (6 m) vs CTX, label georef",
+    "dx_m": -75.650801636973,
+    "dy_m": -105.9111222917622,
+    "dx_mad_m": 3.631238478574702,
+    "dy_mad_m": 5.446857717862048
+  },
+  "params": {
+    "half_m": 150.0,
+    "swath_m": 10.0,
+    "far": [
+      80.0,
+      150.0
+    ],
+    "flank": [
+      20.0,
+      40.0
+    ],
+    "core": 15.0,
+    "line_search_m": 60.0
+  },
+  "n_sites": 21,
+  "started_utc": "2026-08-30T18:56:21.004907+00:00",
+  "finished_utc": "2026-08-30T18:57:00.751634+00:00"
+}

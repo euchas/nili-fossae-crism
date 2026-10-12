@@ -1,0 +1,36 @@
+{
+  "script": "contact_clay_provinces.py",
+  "script_md5": "8599ae2c11ba715b79f4ba76670f4380",
+  "started_utc": "2026-09-01T15:55:06.041391+00:00",
+  "finished_utc": "2026-09-01T15:55:19.125582+00:00",
+  "window_um": [
+    1.3,
+    2.62
+  ],
+  "min_component_strong": 200,
+  "clay_pure_f": 0.95,
+  "province_threshold_um": 2.311,
+  "tail_um": 2.325,
+  "control_range_um": [
+    2.312,
+    2.322
+  ],
+  "tail_min_n": 300,
+  "denominator": "median I/F of valid & f_cap>=0.9 pixels (same for all stacks in a cube)",
+  "note": "stack-level readouts, no per-pixel parameter maps; descriptive, no CIs",
+  "patches_csv_md5": "854ded90a2edba77a27209ebc7bbf603",
+  "inputs": {
+    "FRT00003E12": {
+      "center_md5": "e85e12ef5e43a70627b1285cdd98d0a4"
+    },
+    "FRT0000871C": {
+      "center_md5": "02ff05d99f4b9d73868a1eed71d9b2ac"
+    },
+    "FRT0000A4FC": {
+      "center_md5": "7b4b1b683739a6e692a29c2d80dfa8b2"
+    },
+    "FRT0000B438": {
+      "center_md5": "0fa47ce8580dac989f881ebc57bf73d7"
+    }
+  }
+}

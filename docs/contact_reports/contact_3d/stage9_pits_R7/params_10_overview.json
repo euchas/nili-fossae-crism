@@ -1,0 +1,34 @@
+{
+  "slope_median_pits": 3.7583869852780136,
+  "slope_median_random": 10.726964107243617,
+  "slope_median_deep": 23.707689800686488,
+  "n_depth_ge": [
+    {
+      "thr": 0.3,
+      "n": 3117
+    },
+    {
+      "thr": 0.5,
+      "n": 2287
+    },
+    {
+      "thr": 1,
+      "n": 542
+    },
+    {
+      "thr": 2,
+      "n": 142
+    },
+    {
+      "thr": 3,
+      "n": 101
+    },
+    {
+      "thr": 5,
+      "n": 25
+    }
+  ],
+  "olivine_only_pits": 1575,
+  "olivine_only_area_km2": 0.4733372132688644,
+  "olivine_only_density": 3327.43751357105
+}

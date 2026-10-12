@@ -1,0 +1,7 @@
+{
+  "script": "contact_band1400_wing_check.py",
+  "script_md5": "00533dd5d00bda051b3034849150d6da",
+  "started_utc": "2026-09-04T15:50:23.101013+00:00",
+  "finished_utc": "2026-09-04T15:50:24.351987+00:00",
+  "note": "descriptive pixel-level Spearman; no p-values (autocorrelation)"
+}

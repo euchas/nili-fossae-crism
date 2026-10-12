@@ -1,0 +1,131 @@
+{
+  "esp": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\CRISM site Creta Vulcanica\\HiRISE nili fossae images\\ESP_087349_2025_COLOR.JP2",
+  "esp_offset_dx_m": -296.5952080706179,
+  "esp_offset_dy_m": -22.194199243379572,
+  "coreg_centre": [
+    2100.0,
+    1320690.0
+  ],
+  "coreg_half_m": 400.0,
+  "hp_sigma_px": 20.0,
+  "selection": [
+    {
+      "pit_id": 1710,
+      "depth_max_m": 6.76104736328125,
+      "eq_diam_m": 10.856283588903253,
+      "colour_ok": false
+    },
+    {
+      "pit_id": 1797,
+      "depth_max_m": 6.19561767578125,
+      "eq_diam_m": 11.549923179591865,
+      "colour_ok": true
+    },
+    {
+      "pit_id": 1736,
+      "depth_max_m": 6.09515380859375,
+      "eq_diam_m": 10.43037988965326,
+      "colour_ok": true
+    },
+    {
+      "pit_id": 1731,
+      "depth_max_m": 6.09002685546875,
+      "eq_diam_m": 19.009145065835074,
+      "colour_ok": false
+    },
+    {
+      "pit_id": 1799,
+      "depth_max_m": 5.89166259765625,
+      "eq_diam_m": 2.787636282927106,
+      "colour_ok": true
+    },
+    {
+      "pit_id": 1753,
+      "depth_max_m": 5.85089111328125,
+      "eq_diam_m": 4.960635121835734,
+      "colour_ok": true
+    },
+    {
+      "pit_id": 1816,
+      "depth_max_m": 5.77178955078125,
+      "eq_diam_m": 5.690238734700143,
+      "colour_ok": false
+    },
+    {
+      "pit_id": 1776,
+      "depth_max_m": 5.7532958984375,
+      "eq_diam_m": 5.575272565854212,
+      "colour_ok": true
+    },
+    {
+      "pit_id": 1802,
+      "depth_max_m": 5.7442626953125,
+      "eq_diam_m": 9.921270243671469,
+      "colour_ok": false
+    }
+  ],
+  "chain_ids": [
+    1734,
+    1745,
+    1746,
+    1747,
+    1749,
+    1758,
+    1761,
+    1764,
+    1770,
+    1773,
+    1774,
+    1776,
+    1783,
+    1786,
+    1788,
+    1793,
+    1797,
+    1803,
+    1806,
+    1807,
+    1809,
+    1831,
+    1731,
+    1735,
+    1736,
+    1752,
+    1753,
+    1779,
+    1789,
+    1790,
+    1799,
+    1810,
+    1814,
+    1825,
+    1826,
+    1834,
+    1710,
+    1715,
+    1732,
+    1744,
+    1755,
+    1766,
+    1767,
+    1778,
+    1787,
+    1801,
+    1802,
+    1812,
+    1816,
+    1817
+  ],
+  "half_m": 40.0,
+  "band_extent": [
+    1850.0,
+    2350.0,
+    1320560.0,
+    1320780.0
+  ],
+  "seed": 42,
+  "figures": [
+    "outputs\\revision\\contact_3d\\stage9_pits_R7\\fig_15_chain_colour_gallery.png",
+    "outputs\\revision\\contact_3d\\stage9_pits_R7\\fig_15_chain_band_colour.png"
+  ]
+}

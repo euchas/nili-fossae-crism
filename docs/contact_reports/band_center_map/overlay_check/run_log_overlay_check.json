@@ -1,0 +1,260 @@
+{
+  "script": "contact_map_overlay_check.py",
+  "script_md5": "518e174f8adbd1ab4c399b4c8e504875",
+  "started_utc": "2026-09-07T14:16:23.030246+00:00",
+  "finished_utc": "2026-09-07T14:16:28.758729+00:00",
+  "rgb_um": [
+    2.5295,
+    1.5066,
+    1.08
+  ],
+  "stretch_pct": [
+    2.0,
+    98.0
+  ],
+  "coreg_offsets": {
+    "crism": {
+      "FRT00003E12": {
+        "n_tiles": 99,
+        "n_good": 99,
+        "ok": true,
+        "drow": -3.0,
+        "dcol": -20.2,
+        "mad_row": 1.1,
+        "mad_col": 2.6999999999999993,
+        "conf_median": 0.6193121458508136,
+        "coarse_drow": -3.0,
+        "coarse_dcol": -22.0,
+        "res_m": 18.0,
+        "tile_px": 128,
+        "stride_px": 64,
+        "hp_sigma_px": 6.111111111111111,
+        "label": "FRT00003E12 MTR3 749 nm vs CTX",
+        "dx_m": -363.59999999999997,
+        "dy_m": 54.0,
+        "dx_mad_m": 48.59999999999999,
+        "dy_mad_m": 19.8,
+        "band_index": 37,
+        "band_nm": 748.82,
+        "grid_from": "outputs\\_v8_mtr3_with_brown\\FRT00003E12\\geotiffs\\FRT00003E12_v8_GMM_k6_aligned.tif"
+      },
+      "FRT0000871C": {
+        "n_tiles": 92,
+        "n_good": 92,
+        "ok": true,
+        "drow": -5.9,
+        "dcol": -19.9,
+        "mad_row": 1.2999999999999998,
+        "mad_col": 2.6000000000000014,
+        "conf_median": 0.5139297545152149,
+        "coarse_drow": -5.0,
+        "coarse_dcol": -20.0,
+        "res_m": 18.0,
+        "tile_px": 128,
+        "stride_px": 64,
+        "hp_sigma_px": 6.111111111111111,
+        "label": "FRT0000871C MTR3 749 nm vs CTX",
+        "dx_m": -358.2,
+        "dy_m": 106.2,
+        "dx_mad_m": 46.800000000000026,
+        "dy_mad_m": 23.4,
+        "band_index": 37,
+        "band_nm": 748.82,
+        "grid_from": "outputs\\_v8_mtr3_with_brown\\FRT0000871C\\geotiffs\\FRT0000871C_v8_GMM_k6_aligned.tif"
+      },
+      "FRT0000A4FC": {
+        "n_tiles": 97,
+        "n_good": 97,
+        "ok": true,
+        "drow": 0.8,
+        "dcol": -16.9,
+        "mad_row": 1.0,
+        "mad_col": 2.799999999999999,
+        "conf_median": 0.6205090361611754,
+        "coarse_drow": 2.0,
+        "coarse_dcol": -17.0,
+        "res_m": 18.0,
+        "tile_px": 128,
+        "stride_px": 64,
+        "hp_sigma_px": 6.111111111111111,
+        "label": "FRT0000A4FC MTR3 749 nm vs CTX",
+        "dx_m": -304.2,
+        "dy_m": -14.4,
+        "dx_mad_m": 50.39999999999998,
+        "dy_mad_m": 18.0,
+        "band_index": 37,
+        "band_nm": 748.82,
+        "grid_from": "outputs\\_v8_mtr3_with_brown\\FRT0000A4FC\\geotiffs\\FRT0000A4FC_v8_GMM_k6_aligned.tif"
+      },
+      "FRT0000B438": {
+        "n_tiles": 98,
+        "n_good": 95,
+        "ok": true,
+        "drow": 3.4,
+        "dcol": -18.1,
+        "mad_row": 1.2999999999999998,
+        "mad_col": 3.599999999999998,
+        "conf_median": 0.5994033298158716,
+        "coarse_drow": 4.0,
+        "coarse_dcol": -17.0,
+        "res_m": 18.0,
+        "tile_px": 128,
+        "stride_px": 64,
+        "hp_sigma_px": 6.111111111111111,
+        "label": "FRT0000B438 MTR3 749 nm vs CTX",
+        "dx_m": -325.8,
+        "dy_m": -61.199999999999996,
+        "dx_mad_m": 64.79999999999995,
+        "dy_mad_m": 23.4,
+        "band_index": 37,
+        "band_nm": 748.82,
+        "grid_from": "outputs\\_v8_mtr3_with_brown\\FRT0000B438\\geotiffs\\FRT0000B438_v8_GMM_k6_aligned.tif"
+      }
+    },
+    "hirise": {
+      "DTEEC_006712_2020_005855_2020_A01": {
+        "ortho": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\PSP_006712_2020_RED_A_01_ORTHO.JP2",
+        "ortho_native_res_m": 0.25216933878991,
+        "decimation": 24,
+        "measured": {
+          "n_tiles": 176,
+          "n_good": 169,
+          "ok": true,
+          "drow": 17.5,
+          "dcol": -12.5,
+          "mad_row": 0.8999999999999986,
+          "mad_col": 0.5999999999999996,
+          "conf_median": 0.7006361473015411,
+          "coarse_drow": 17.0,
+          "coarse_dcol": -13.0,
+          "res_m": 6.05206413095784,
+          "tile_px": 256,
+          "stride_px": 128,
+          "hp_sigma_px": 18.175617048953953,
+          "label": "PSP_006712_2020_RED_A_01_ORTHO.JP2 (6 m) vs CTX, label georef",
+          "dx_m": -75.650801636973,
+          "dy_m": -105.9111222917622,
+          "dx_mad_m": 3.631238478574702,
+          "dy_mad_m": 5.446857717862048
+        },
+        "manual_worldfile": {
+          "sidecar": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\PSP_006712_2020_RED_A_01_ORTHO.LLwx",
+          "dx_m": -78.42008528297447,
+          "dy_m": -101.80369237135164
+        },
+        "residual_after_manual_m": {
+          "dx": 2.769283646001469,
+          "dy": -4.107429920410553
+        }
+      },
+      "DTEEC_002888_2025_002176_2025_A01": {
+        "ortho": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\PSP_002176_2025_RED_A_01_ORTHO.JP2",
+        "ortho_native_res_m": 0.25214213894727,
+        "decimation": 24,
+        "measured": {
+          "n_tiles": 72,
+          "n_good": 72,
+          "ok": true,
+          "drow": 20.4,
+          "dcol": -17.7,
+          "mad_row": 0.6999999999999993,
+          "mad_col": 1.0,
+          "conf_median": 0.7577638043856996,
+          "coarse_drow": 20.0,
+          "coarse_dcol": -19.0,
+          "res_m": 6.05141133473448,
+          "tile_px": 256,
+          "stride_px": 128,
+          "hp_sigma_px": 18.177577744320782,
+          "label": "PSP_002176_2025_RED_A_01_ORTHO.JP2 (6 m) vs CTX, label georef",
+          "dx_m": -107.10998062480029,
+          "dy_m": -123.44879122858339,
+          "dx_mad_m": 6.05141133473448,
+          "dy_mad_m": 4.235987934314132
+        },
+        "manual_worldfile": {
+          "sidecar": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\PSP_002176_2025_RED_A_01_ORTHO.LLwx",
+          "dx_m": -113.113920795176,
+          "dy_m": -112.06064038630575
+        },
+        "residual_after_manual_m": {
+          "dx": 6.003940170375714,
+          "dy": -11.38815084227764
+        }
+      },
+      "DTEEC_008993_2020_009626_2020_A01": {
+        "ortho": "Nili Planum\\CaSSIS-CRISM-Nili_Fossae\\DTMs\\Long ridges site\\PSP_009626_2020_RED_C_01_ORTHO.JP2",
+        "ortho_native_res_m": 1.00865574977,
+        "decimation": 6,
+        "measured": {
+          "n_tiles": 167,
+          "n_good": 167,
+          "ok": true,
+          "drow": -1.6,
+          "dcol": -3.6,
+          "mad_row": 1.4,
+          "mad_col": 0.8999999999999999,
+          "conf_median": 0.8489305655347016,
+          "coarse_drow": -1.0,
+          "coarse_dcol": -4.0,
+          "res_m": 6.05193449862,
+          "tile_px": 256,
+          "stride_px": 128,
+          "hp_sigma_px": 18.176006370373457,
+          "label": "PSP_009626_2020_RED_C_01_ORTHO.JP2 (6 m) vs CTX, label georef",
+          "dx_m": -21.786964195032,
+          "dy_m": 9.683095197792,
+          "dx_mad_m": 5.446741048757999,
+          "dy_mad_m": 8.472708298068
+        },
+        "manual_worldfile": null
+      }
+    },
+    "ctx_url": "/vsicurl/https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mars/Mars_MRO_CTX_Equi_Mosaics_Robbins/6mpp/MC13_6mpp.16bit.tif",
+    "hp_scale_m": 110.0,
+    "crism_band_nm": 749.0,
+    "sign_convention": "moving content shifts by (+drow,+dcol) px to match CTX; correction UL_X += dx_m, UL_Y += dy_m",
+    "started_utc": "2026-08-30T18:46:52.272533+00:00",
+    "script_md5": "fdcf0cd96c22c7cb46b6a60ba5cbb118",
+    "finished_utc": "2026-08-30T18:48:09.368282+00:00"
+  },
+  "deterministic": true,
+  "inputs": {
+    "FRT00003E12": {
+      "mtr3_img": "cubes\\frt00003e12_07_if166j_mtr3\\frt00003e12_07_if166j_mtr3.img",
+      "mtr3_size_bytes": 1365295824,
+      "fractions_md5": "8db346411cbfe5c8d11880f2cee3eb41",
+      "applied_shift_m": {
+        "shift_dx_m": -363.59999999999997,
+        "shift_dy_m": 54.0
+      }
+    },
+    "FRT0000871C": {
+      "mtr3_img": "cubes\\frt0000871c_07_if166j_mtr3\\frt0000871c_07_if166j_mtr3.img",
+      "mtr3_size_bytes": 1229514216,
+      "fractions_md5": "a6f01c7eae660b8552e15c09432b87a2",
+      "applied_shift_m": {
+        "shift_dx_m": -358.2,
+        "shift_dy_m": 106.2
+      }
+    },
+    "FRT0000A4FC": {
+      "mtr3_img": "cubes\\frt0000a4fc_07_if166j_mtr3\\frt0000a4fc_07_if166j_mtr3.img",
+      "mtr3_size_bytes": 1257160320,
+      "fractions_md5": "1c068c3205571e29d6d3b1e69f57a253",
+      "applied_shift_m": {
+        "shift_dx_m": -304.2,
+        "shift_dy_m": -14.4
+      }
+    },
+    "FRT0000B438": {
+      "mtr3_img": "cubes\\frt0000b438_07_if166j_mtr3\\frt0000b438_07_if166j_mtr3.img",
+      "mtr3_size_bytes": 1336124040,
+      "fractions_md5": "96b8d97729031cd81facf01b0f55453f",
+      "applied_shift_m": {
+        "shift_dx_m": -325.8,
+        "shift_dy_m": -61.199999999999996
+      }
+    }
+  }
+}

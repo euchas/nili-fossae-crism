@@ -1,0 +1,17 @@
+{
+  "script": "contact_combo_amplitude_control.py",
+  "script_md5": "d39a8265fe46b5f9844adcb2d9138674",
+  "started_utc": "2026-09-07T14:15:44.508468+00:00",
+  "finished_utc": "2026-09-07T14:15:46.246784+00:00",
+  "amp_edges": [
+    0.006,
+    0.009,
+    0.012,
+    0.016,
+    0.022,
+    0.03,
+    0.045
+  ],
+  "min_n": 100,
+  "deterministic": true
+}

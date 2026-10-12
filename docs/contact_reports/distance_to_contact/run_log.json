@@ -1,0 +1,164 @@
+{
+  "script": "contact_distance_to_contact.py",
+  "script_md5": "b8cc904378557cd0cb9ad0606714ebaa",
+  "started_utc": "2026-08-28T18:10:03.923032+00:00",
+  "finished_utc": "2026-08-28T18:10:19.502107+00:00",
+  "pixel_m": 18.0,
+  "dist_edges_m": [
+    0.0,
+    18.1,
+    36.1,
+    54.1,
+    90.0,
+    150.0,
+    250.0,
+    400.0,
+    700.0,
+    1200.0,
+    Infinity
+  ],
+  "mixing_bins": 2,
+  "edge_exclusion_m": 90.0,
+  "other_contact_exclusion_m": 90.0,
+  "near_range_m": [
+    36.1,
+    150.0
+  ],
+  "far_min_m": 400.0,
+  "elev_bin_m": 25.0,
+  "class_map": {
+    "carb": [
+      0
+    ],
+    "cap": [
+      1
+    ],
+    "oliv": [
+      0,
+      2,
+      3
+    ],
+    "clay": [
+      4,
+      5
+    ]
+  },
+  "olindex3_percentile": 60.0,
+  "inputs": {
+    "FRT00003E12": {
+      "labels": {
+        "path": "outputs\\_v9_1_per_cube_scaler\\v9_1b_7param\\FRT00003E12\\arrays\\FRT00003E12_v9_1b_gmm_labels.npy",
+        "md5": "be54e8d6fbfcbffaf0127ae3a912ca0f"
+      },
+      "novel": {
+        "path": "outputs\\_v9_1_per_cube_scaler\\v9_1b_7param\\FRT00003E12\\arrays\\FRT00003E12_v9_1b_novel_mask.npy",
+        "md5": "2152fe76d747ac88d1e7a1e9685035bd"
+      },
+      "params": {
+        "path": "outputs\\_v8_mtr3_with_brown\\FRT00003E12\\arrays\\FRT00003E12_v8_param_stack.npy",
+        "md5": "aec0441d524a7b7472f1e305a492426d"
+      },
+      "ddr": {
+        "path": "cubes\\frt00003e12_07_if166j_mtr3\\frt00003e12_07_de166l_mtr1.img",
+        "md5": "739284fb14d3fd22472127191dd809ee"
+      }
+    },
+    "FRT0000871C": {
+      "labels": {
+        "path": "outputs\\_v9_1_per_cube_scaler\\v9_1b_7param\\FRT0000871C\\arrays\\FRT0000871C_v9_1b_gmm_labels.npy",
+        "md5": "327fcf478686219a6b0057ee41fd8812"
+      },
+      "novel": {
+        "path": "outputs\\_v9_1_per_cube_scaler\\v9_1b_7param\\FRT0000871C\\arrays\\FRT0000871C_v9_1b_novel_mask.npy",
+        "md5": "b6ebbc4a2789cf44f70e6dc63887b389"
+      },
+      "params": {
+        "path": "outputs\\_v8_mtr3_with_brown\\FRT0000871C\\arrays\\FRT0000871C_v8_param_stack.npy",
+        "md5": "621da59637d98b2e615b110783fbfdee"
+      },
+      "ddr": {
+        "path": "cubes\\frt0000871c_07_if166j_mtr3\\frt0000871c_07_de166l_mtr1.img",
+        "md5": "182a8eb9e28f9d3e0af5a98bb65dc173"
+      }
+    },
+    "FRT0000A4FC": {
+      "labels": {
+        "path": "outputs\\_v9_1_per_cube_scaler\\v9_1b_7param\\FRT0000A4FC\\arrays\\FRT0000A4FC_v9_1b_gmm_labels.npy",
+        "md5": "49846e5d33e80c6423b44a7a255b71a4"
+      },
+      "novel": {
+        "path": "outputs\\_v9_1_per_cube_scaler\\v9_1b_7param\\FRT0000A4FC\\arrays\\FRT0000A4FC_v9_1b_novel_mask.npy",
+        "md5": "3ea8d72b157320a8b0bdc315c8cfc4ce"
+      },
+      "params": {
+        "path": "outputs\\_v8_mtr3_with_brown\\FRT0000A4FC\\arrays\\FRT0000A4FC_v8_param_stack.npy",
+        "md5": "b490025e1308fab47572a49da04fb50e"
+      },
+      "ddr": {
+        "path": "cubes\\frt0000a4fc_07_if166j_mtr3\\frt0000a4fc_07_de166l_mtr1.img",
+        "md5": "ea186020d66b6e9e44d8812e5fbaea7c"
+      }
+    },
+    "FRT0000B438": {
+      "labels": {
+        "path": "outputs\\_v9_1_per_cube_scaler\\v9_1b_7param\\FRT0000B438\\arrays\\FRT0000B438_v9_1b_gmm_labels.npy",
+        "md5": "edf5392a2ca0c73c60da4e2b1da413f6"
+      },
+      "novel": {
+        "path": "outputs\\_v9_1_per_cube_scaler\\v9_1b_7param\\FRT0000B438\\arrays\\FRT0000B438_v9_1b_novel_mask.npy",
+        "md5": "0222ce46974691a0c3c2a0f27dd7bb29"
+      },
+      "params": {
+        "path": "outputs\\_v8_mtr3_with_brown\\FRT0000B438\\arrays\\FRT0000B438_v8_param_stack.npy",
+        "md5": "53cd3aab5c4819957c6c50c2029b64ee"
+      },
+      "ddr": {
+        "path": "cubes\\frt0000b438_07_if166j_mtr3\\frt0000b438_07_de166l_mtr1.img",
+        "md5": "4f73af605b738d8e2db3c5f29a297560"
+      }
+    }
+  },
+  "class_counts": {
+    "FRT00003E12": {
+      "carb": 40394,
+      "cap": 114743,
+      "oliv": 262368,
+      "clay": 95754,
+      "valid": 472865
+    },
+    "FRT0000871C": {
+      "carb": 156950,
+      "cap": 111161,
+      "oliv": 258993,
+      "clay": 65010,
+      "valid": 435164
+    },
+    "FRT0000A4FC": {
+      "carb": 164567,
+      "cap": 156699,
+      "oliv": 221357,
+      "clay": 56126,
+      "valid": 434182
+    },
+    "FRT0000B438": {
+      "carb": 54524,
+      "cap": 110976,
+      "oliv": 217708,
+      "clay": 138977,
+      "valid": 467661
+    }
+  },
+  "olindex3_thresholds": {
+    "FRT00003E12": 0.22736966609954834,
+    "FRT0000871C": 0.10318903625011444,
+    "FRT0000A4FC": 0.12967358529567719,
+    "FRT0000B438": 0.14957962930202484
+  },
+  "versions": {
+    "numpy": "2.4.0",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "python": "3.14.0"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "script": "contact_band_matched_filter.py",
+  "script_md5": "7a64579d41426fc6d8c14c3ea3b806bf",
+  "band": "1900",
+  "started_utc": "2026-09-05T18:40:36.102000+00:00",
+  "finished_utc": "2026-09-05T18:42:16.402025+00:00",
+  "config": {
+    "label": "1.9 um H2O",
+    "fit_win": [
+      1.74,
+      2.1
+    ],
+    "signal_win": [
+      1.895,
+      1.945
+    ],
+    "null_wins": [
+      [
+        1.755,
+        1.795
+      ],
+      [
+        1.805,
+        1.845
+      ]
+    ],
+    "guard_nm": 15.0,
+    "fwhm_nm": [
+      40.0,
+      55.0,
+      70.0,
+      90.0
+    ],
+    "ref_param": "BD1900R2",
+    "note": "broad band; both nulls on the short side to avoid the 2.0 um CO2 residual region; fit window truncated at 2.10 um for the same reason"
+  },
+  "centre_step_um": 0.002,
+  "null_percentile": 99.0,
+  "bg_order": 3,
+  "fill_tol_m": 30.0,
+  "deterministic": true,
+  "inputs": {
+    "FRT00003E12": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt00003e12_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000871C": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000871c_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000A4FC": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000a4fc_07_if166l_trr3_ratioed_bland.npz"
+    },
+    "FRT0000B438": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000b438_07_if166l_trr3_ratioed_bland.npz"
+    }
+  }
+}

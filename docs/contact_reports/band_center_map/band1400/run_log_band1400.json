@@ -1,0 +1,43 @@
+{
+  "script": "contact_band_center_1400.py",
+  "script_md5": "277a0d8d5e40bc99c216c703f2668c6a",
+  "started_utc": "2026-09-07T14:16:55.374913+00:00",
+  "finished_utc": "2026-09-07T14:17:06.699645+00:00",
+  "window_um": [
+    1.28,
+    1.56
+  ],
+  "left_anchor": [
+    1.316,
+    1.342
+  ],
+  "right_anchor": [
+    1.505,
+    1.535
+  ],
+  "search_um": [
+    1.36,
+    1.425
+  ],
+  "strong_depth": 0.01,
+  "weak_depth": 0.004,
+  "tier_note": "tiers 0.010/0.004 (vs 0.015/0.005 at 2.3 um): 1.4 um band is 2-3x shallower",
+  "prehnite_min_um": 1.418,
+  "contact_source": "geologic map, CTX-corrected frame",
+  "caveat": "1.4 um region may carry volcano-scan/atmospheric residuals; interpret unit contrasts",
+  "deterministic": true,
+  "inputs": {
+    "FRT00003E12": {
+      "labels_md5": "be54e8d6fbfcbffaf0127ae3a912ca0f"
+    },
+    "FRT0000871C": {
+      "labels_md5": "327fcf478686219a6b0057ee41fd8812"
+    },
+    "FRT0000A4FC": {
+      "labels_md5": "49846e5d33e80c6423b44a7a255b71a4"
+    },
+    "FRT0000B438": {
+      "labels_md5": "edf5392a2ca0c73c60da4e2b1da413f6"
+    }
+  }
+}

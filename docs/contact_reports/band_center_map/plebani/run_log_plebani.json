@@ -1,0 +1,49 @@
+{
+  "script": "contact_band_center_plebani.py",
+  "script_md5": "45e625a2b1dc297b049d2e9cbfa692f1",
+  "started_utc": "2026-09-01T21:30:11.915736+00:00",
+  "finished_utc": "2026-09-01T21:44:26.136088+00:00",
+  "chain": "TRR3 sensor space, crism_ml bland-pixel column ratio (cached if2), no despike",
+  "fit": {
+    "left_anchor": [
+      2.2,
+      2.225
+    ],
+    "right_anchor": [
+      2.365,
+      2.395
+    ],
+    "search": [
+      2.265,
+      2.355
+    ],
+    "strong_depth": 0.015,
+    "weak_depth": 0.005
+  },
+  "deciles": [
+    0.1,
+    0.9
+  ],
+  "tail_um": 2.325,
+  "mode_threshold_um": 2.311,
+  "projection": "DDR lonlat -> MTR3 CRS + coreg shift -> fractions affine, per-cell median",
+  "deterministic": true,
+  "inputs": {
+    "FRT00003E12": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt00003e12_07_if166l_trr3_ratioed_bland.npz",
+      "npz_size_bytes": 236403545
+    },
+    "FRT0000871C": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000871c_07_if166l_trr3_ratioed_bland.npz",
+      "npz_size_bytes": 229316954
+    },
+    "FRT0000A4FC": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000a4fc_07_if166l_trr3_ratioed_bland.npz",
+      "npz_size_bytes": 232465640
+    },
+    "FRT0000B438": {
+      "ratioed_npz": "<NILI_PLEBANI_RATIO_DIR>\\frt0000b438_07_if166l_trr3_ratioed_bland.npz",
+      "npz_size_bytes": 234115111
+    }
+  }
+}

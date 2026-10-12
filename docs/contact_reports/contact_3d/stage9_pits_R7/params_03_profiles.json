@@ -1,0 +1,32 @@
+[
+  {
+    "pit_id": 1664,
+    "n_px_below_halfdepth": 6,
+    "rim_minus_bg_m": -0.07400767008459752
+  },
+  {
+    "pit_id": 1799,
+    "n_px_below_halfdepth": 10,
+    "rim_minus_bg_m": -0.3552867344448032
+  },
+  {
+    "pit_id": 1753,
+    "n_px_below_halfdepth": 11,
+    "rim_minus_bg_m": 1.0467452483923125
+  },
+  {
+    "pit_id": 1815,
+    "n_px_below_halfdepth": 19,
+    "rim_minus_bg_m": -0.5121320088704806
+  },
+  {
+    "pit_id": 1444,
+    "n_px_below_halfdepth": 17,
+    "rim_minus_bg_m": -0.1419013238722755
+  },
+  {
+    "pit_id": 1731,
+    "n_px_below_halfdepth": 136,
+    "rim_minus_bg_m": -4.903783588643137
+  }
+]

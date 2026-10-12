@@ -1,0 +1,27 @@
+{
+  "script": "contact_roi_spectra_1400.py",
+  "script_md5": "bc69236c8e47ccd400c7197ca34fadf8",
+  "started_utc": "2026-09-07T14:18:40.684101+00:00",
+  "finished_utc": "2026-09-07T14:19:02.615373+00:00",
+  "cube": "FRT00003E12",
+  "box_cells": 24,
+  "rois": {
+    "olivine ROI": {
+      "row0": 694,
+      "col0": 228,
+      "frac_key": "oliv",
+      "range_um": "(1.42, 1.455)",
+      "min_dist_clay_m": "200.0",
+      "color": "#D55E00"
+    },
+    "smectite ROI": {
+      "row0": 117,
+      "col0": 540,
+      "frac_key": "clay",
+      "range_um": "(1.38, 1.405)",
+      "min_dist_clay_m": "None",
+      "color": "#0072B2"
+    }
+  },
+  "deterministic": true
+}
